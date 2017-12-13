@@ -4,16 +4,17 @@ This file file serves as your book's preface, a great place to describe your boo
 
 * directory structure
   * how to create chapters
+  * multi-lang?
 * summary
   * how to create the TOC with sections
-  * TOC page numbers?
+  * TOC page numbers? \([remove page numbers](https://github.com/GitbookIO/gitbook/issues/1223#issuecomment-213457068)\)
 * book.json
   * general settings
   * pdf options
   * plug-ins
 * glossary
-* multi-lang
-* markdown general stuff
+
+* layout elements
   * titles
   * links \(with footnotes\)
   * regular text, strong, italic, underline
@@ -21,13 +22,17 @@ This file file serves as your book's preface, a great place to describe your boo
   * quote
   * highlighted section
   * footnotes
-* pictures
+  * BOM table
+  * pictures
+    * positioning?
+
 * video
 * embeds?
 * theme layout
 
-* one pager
-* step by step guide
+  * one pager
+
+  * step by step guide
 
 * book cover
 
