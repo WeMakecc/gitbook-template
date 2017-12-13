@@ -20,7 +20,7 @@ This file file serves as your book's preface, a great place to describe your boo
   * links \(with footnotes\)
   * regular text, strong, italic, underline
   * code block
-  * quote
+  * quote block
   * highlighted section
   * footnotes
   * BOM table
@@ -36,6 +36,8 @@ This file file serves as your book's preface, a great place to describe your boo
   * one pager
 
   * step by step guide
+
+  * 
 
 * book cover
 
