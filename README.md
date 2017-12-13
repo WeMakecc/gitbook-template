@@ -15,6 +15,7 @@ This file file serves as your book's preface, a great place to describe your boo
 * glossary
 
 * layout elements
+
   * titles
   * links \(with footnotes\)
   * regular text, strong, italic, underline
@@ -27,7 +28,9 @@ This file file serves as your book's preface, a great place to describe your boo
     * positioning?
 
 * video
+
 * embeds?
+
 * theme layout
 
   * one pager
