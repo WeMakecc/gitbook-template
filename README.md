@@ -13,9 +13,7 @@ This file file serves as your book's preface, a great place to describe your boo
   * pdf options
   * plug-ins
 * glossary
-
 * layout elements
-
   * titles
   * links \(with footnotes\)
   * regular text, strong, italic, underline
@@ -26,19 +24,12 @@ This file file serves as your book's preface, a great place to describe your boo
   * BOM table
   * pictures
     * positioning?
-
 * video
-
 * embeds?
-
 * theme layout
-
   * one pager
-
   * step by step guide
-
   * 
-
 * book cover
 
 
