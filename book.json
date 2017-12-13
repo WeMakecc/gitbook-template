@@ -1,3 +1,7 @@
 {
-    "pdf.fontSize" : 24	
+    "plugins": [
+        "comment",
+        "structured-toc"
+    ],
+    "pluginsConfig": {}
 }
