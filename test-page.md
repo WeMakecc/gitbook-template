@@ -67,5 +67,5 @@ footnote [link](/www.google.com)[^2]
 
 [^1]: this is a plain footnote
 
-[^2]: second footnote with link www.google.com
+[^2]: link: www.google.com
 
