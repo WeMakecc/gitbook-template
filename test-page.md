@@ -83,6 +83,16 @@ this is inline `code` instead
 ---
 
 
+> **[info] For info**
+>
+> Use this for infomation messages.
+
+
+> **[warning] For warning**
+>
+> Use this for warning messages.
+
+
 
 [^1]: this is a plain footnote
 
