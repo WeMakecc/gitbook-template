@@ -2,7 +2,6 @@
     "plugins": [
         "alerts",
         "anchorjs",
-        "styled-blockquotes"
     ],
     "pluginsConfig": {
         "anchorjs": {
