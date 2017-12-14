@@ -51,7 +51,7 @@ _**Bold and italic text**_
 * [ ] task2
   * [ ] task2.1
   * [ ] task2.2
-    * [ ] task2.2.1
+  * [ ] task2.2.1
 * [ ] task3
 
 ---
@@ -59,6 +59,8 @@ _**Bold and italic text**_
 footnote[^1]
 
 footnote [link](/www.google.com)[^2]
+
+
 
 ---
 
@@ -72,6 +74,4 @@ footnote [link](/www.google.com)[^2]
 
 
 [^1]: this is a plain footnote
-
-[^2]: www.google.com
 
