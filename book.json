@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "styled-blockquotes"
+        "alerts"
     ],
     "pluginsConfig": {}
 }
