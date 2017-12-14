@@ -63,6 +63,8 @@ footnote [link](/www.google.com)[^2]
 > and it can continue on a second paragraph.  
 > and you can also have a single line break without starting a new paragraph
 
+---
+
 [^1]: this is a plain footnote
 
 [^2]: www.google.com
