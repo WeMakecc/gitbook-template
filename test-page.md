@@ -12,7 +12,7 @@
 
 ---
 
-# This an H1 Heading with an "#title" id {#title}
+# This an H1 Heading with a "#title" id {#title}
 
 ---
 
