@@ -24,8 +24,8 @@ _**Bold and italic text**_
 
 ---
 
-<div style="font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px;">Text</div>
+<div style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px;">Text</div>
 
-<div style="font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px;">Text</div>
+<div style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px;">Text</div>
 
 <div style="font-family: Courier new, serif; font-size: 16px;">Text</div>
