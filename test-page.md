@@ -65,7 +65,26 @@ footnote [link](/www.google.com)[^2]
 
 ---
 
+```
+this is a
+code block
+```
+
+```css
+/* this is a code block with syntax highlighting */  
+#title {  
+  padding-bottom: .2rem;  
+  border-bottom: 1px solid #eaecef;  
+}
+```
+
+this is inline `code` instead
+
+---
+
+
+
 [^1]: this is a plain footnote
 
-[^2]: link: http://www.google.com
+[^2]: link: [http://www.google.com](http://www.google.com)
 
