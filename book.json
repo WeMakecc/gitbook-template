@@ -1,6 +1,15 @@
 {
     "plugins": [
-        "alerts"
+        "alerts",
+        "anchorjs"
+
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "anchorjs": {
+            "icon": "#",
+            "placement": "left",
+            "visible": "hover",
+            "class": "anchorjs-link"
+        }
+    }
 }
