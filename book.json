@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "anchorjs",
-        "styled-blockquotes"
+        "anchorjs"
     ],
     "pluginsConfig": {
         "anchorjs": {
