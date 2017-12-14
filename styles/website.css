@@ -4,6 +4,11 @@
   font-size: 16px;
 }
 
+#title{
+  padding-bottom: .2rem;
+  border-bottom: 1px solid #eaecef;
+}
+
 .tips {
   color:red;
 }
