@@ -16,7 +16,7 @@ This file file serves as your book's preface, a great place to describe your boo
 * layout elements
   * titles
   * links \(with footnotes\)
-  * regular text, strong, italic, underline
+  * text regular, strong, italic, underline
   * code block
   * quote block
   * highlighted section

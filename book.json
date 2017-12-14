@@ -1,1 +1,13 @@
-{}
+{
+    "plugins": [
+        "anchorjs"
+    ],
+    "pluginsConfig": {
+        "anchorjs": {
+        "icon": "#",
+        "placement": "left",
+        "visible": "hover",
+        "class": "anchorjs-link"
+      }
+    }
+}
