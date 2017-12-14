@@ -82,16 +82,28 @@ this is inline `code` instead
 
 ---
 
-
+info blockquote
 > **[info] For info**
 >
 > Use this for infomation messages.
 
 
+warning blockquote
 > **[warning] For warning**
 >
 > Use this for warning messages.
 
+
+danger blockquote
+> **[danger] For danger**
+>
+> Use this for danger messages.
+
+
+success blockquote
+> **[success] For info**
+>
+> Use this for success messages.
 
 
 [^1]: this is a plain footnote
