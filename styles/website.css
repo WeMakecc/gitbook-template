@@ -15,3 +15,7 @@
   text-decoration: none!important;
   transition: color .25s linear;
 }
+
+.section.toc .page {
+    display: none;
+}
