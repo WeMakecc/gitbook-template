@@ -1,0 +1,17 @@
+/* CSS for website */
+.tips {
+  color:red;
+}
+
+.anchorjs-link {
+  transition: all .25s linear;
+  color: #FF5231!important;
+}
+.anchorjs-link:hover {
+  color: #4183c4!important;
+}
+*:hover > .anchorjs-link {
+  margin-left: -1.125em !important;
+  text-decoration: none!important;
+  transition: color .25s linear;
+}
