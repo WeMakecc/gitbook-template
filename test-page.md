@@ -12,45 +12,66 @@
 
 ---
 
-# This an H1 Heading with a "#title" id {#title}
+# This an H1 Heading with a "\#title" id {#title}
 
 ---
 
 Regular paragraph text
-  
+
 **Bold text**
-  
+
 _Italic text_
 
 _**Bold and italic text**_
-  
+
 ~~Strikethrough text~~
 
 ---
 
 1. First ordered list item
 2. Another item
-* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-1. Ordered sub-list
+   * Unordered sub-list.
+3. Actual numbers don't matter, just that it's a number
+   1. Ordered sub-list
 4. And another item.
 
-You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces \(at least one, but we'll use three here to also align the raw Markdown\).
 
-To have a line break without a paragraph, you will need to use two trailing spaces.
-Note that this line is separate, but within the same paragraph.
-(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+   To have a line break without a paragraph, you will need to use two trailing spaces.  
+   Note that this line is separate, but within the same paragraph.  
+   \(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.\)
 
 5. And another item after a lot of text
 
-
-* You can start a new list after two line breaks
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+6. You can start a new list after two line breaks
 
 ---
 
-footnote
+* [ ] task 1
+* [ ] task2
+  * [ ] task2.1
+  * [ ] task2.2
+    * [ ] task2.2.1
+* [ ] task3
 
+---
+
+footnote[^1]
+
+footnote [link](/www.google.com)[^2]
+
+---
+
+> this is a very famous quote, you should read it 'cause it will make you smarter.
+>
+> and it can continue on a second paragraph.  
+> and you can also have a single line break without starting a new paragraph
+
+
+
+
+
+[^1]: this is a plain footnote
+
+[^2]: www.google.com
 
