@@ -88,10 +88,6 @@ info blockquote
 >
 > Use this for infomation messages.
 
-it can also look like this
-> **info-icon**
-> Content goes here
-
 
 warning blockquote
 > **[warning] For warning**
