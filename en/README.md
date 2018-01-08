@@ -4,7 +4,7 @@ This file file serves as your book's preface, a great place to describe your boo
 
 * directory structure
   * ~~how to create chapters~~
-  * multi-lang?
+  * ~~multi-lang?~~
 * summary
   * ~~how to create the TOC with sections~~
   * ~~TOC page numbers? \([remove page numbers](https://github.com/GitbookIO/gitbook/issues/1223#issuecomment-213457068)\)~~
