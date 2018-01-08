@@ -5,7 +5,8 @@
         "styled-blockquotes",
         "todo",
         "include-codeblock",
-        "ace"
+        "ace",
+        "copy-code-button"
     ],
     "pluginsConfig": {
         "anchorjs": {
