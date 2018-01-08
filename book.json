@@ -18,9 +18,6 @@
         "include-codeblock": {
             "template": "ace",
             "unindent": true
-        },
-        "printlinks": {
-  "externalLinksAreReferences": true
-}
+        }
     }
 }
