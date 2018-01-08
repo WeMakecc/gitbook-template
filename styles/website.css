@@ -32,7 +32,7 @@
 }
 
 .ace {
-  max-height: 500px;
-  overflow: hidden;
-  overflow-y: scroll;
+  max-height: 500px!important;
+  overflow: hidden!important;
+  overflow-y: scroll!important;
 }
