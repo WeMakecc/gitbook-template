@@ -19,6 +19,7 @@
 }
 .anchorjs-link:hover {
   color: #4183c4!important;
+  text-decoration: none!important;
 }
 *:hover > .anchorjs-link {
   margin-left: -1.125em !important;
