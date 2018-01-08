@@ -48,7 +48,7 @@ _**Bold and italic text**_
 ---
 
 * [ ] task 1
-* [ ] task2
+* [ ] task 2
 
 ---
 
