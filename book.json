@@ -3,7 +3,8 @@
         "alerts",
         "anchorjs",
         "styled-blockquotes",
-        "todo"
+        "todo",
+        "include-codeblock"
     ],
     "pluginsConfig": {
         "anchorjs": {
