@@ -5,7 +5,7 @@
     ],
     "pluginsConfig": {
         "anchorjs": {
-            "icon": "#",
+            "icon": "/assets/anchor.svg",
             "placement": "left",
             "visible": "hover",
             "class": "anchorjs-link"
