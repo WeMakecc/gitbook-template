@@ -11,6 +11,11 @@
             "placement": "left",
             "visible": "hover",
             "class": "anchorjs-link"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "theme": "monokai"
         }
     }
 }
