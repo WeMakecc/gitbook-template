@@ -112,7 +112,7 @@ success blockquote
 
 ---
 
-[include](code/timer.ino)
+[include](../code/timer.ino)
 
 ---
 
