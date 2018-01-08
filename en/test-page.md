@@ -85,6 +85,9 @@ code block
 
 this is inline `code` instead
 
+this is code included from an external file:
+[include](../code/timer.ino)
+
 ---
 
 info blockquote
@@ -109,10 +112,6 @@ success blockquote
 > **[success] For info**
 >
 > Use this for success messages.
-
----
-
-[include](../code/timer.ino)
 
 ---
 
