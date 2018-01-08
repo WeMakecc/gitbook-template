@@ -85,7 +85,7 @@ code block
 
 this is inline `code` instead
 
-this is code included from the `timer.ino` file in the code folder:
+this is code included from the `timer.ino` file in the `code` folder:
 [include](../code/timer.ino)
 
 ---
