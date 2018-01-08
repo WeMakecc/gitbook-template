@@ -12,7 +12,7 @@ This file file serves as your book's preface, a great place to describe your boo
   * general settings
   * pdf options
   * plug-ins
-    * anchors (change icon)
+    * ~~anchors (change icon)~~
     * styled blocks ([test this plugin too](https://jim-moody.github.io/gitbook-plugin-styled-blockquotes/))
     * include codeblock from external file ([link](https://plugins.gitbook.com/plugin/include-codeblock))
     * printlinks for printed version ([link](https://plugins.gitbook.com/plugin/printlinks))
