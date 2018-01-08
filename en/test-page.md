@@ -1,7 +1,3 @@
-> **info-icon**
-> Content goes here
-
-
 # Heading H1
 
 ## Heading H2
@@ -91,6 +87,10 @@ info blockquote
 > **[info] For info**
 >
 > Use this for infomation messages.
+
+it can also look like this
+> **info-icon**
+> Content goes here
 
 
 warning blockquote
