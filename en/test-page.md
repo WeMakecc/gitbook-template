@@ -105,6 +105,9 @@ success blockquote
 >
 > Use this for success messages.
 
+> **info-icon**
+> Content goes here
+
 
 [^1]: this is a plain footnote
 
