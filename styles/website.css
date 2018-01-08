@@ -33,5 +33,6 @@
 
 .ace {
   max-height: 500px;
+  overflow: hidden;
   overflow-y: scroll;
 }
