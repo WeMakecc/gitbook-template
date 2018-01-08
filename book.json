@@ -4,7 +4,8 @@
         "anchorjs",
         "styled-blockquotes",
         "todo",
-        "include-codeblock"
+        "include-codeblock",
+        "ace"
     ],
     "pluginsConfig": {
         "anchorjs": {
