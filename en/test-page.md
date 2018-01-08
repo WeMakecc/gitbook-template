@@ -57,6 +57,10 @@ footnote[^1]
 
 footnote [link](/www.google.com)[^2]
 
+[^1]: this is a plain footnote
+
+[^2]: link: [http://www.google.com](http://www.google.com)
+
 ---
 
 > this is a very famous quote, you should read it 'cause it will make you smarter.
@@ -106,12 +110,12 @@ success blockquote
 >
 > Use this for success messages.
 
+---
 
+[include](code/timer.ino)
 
+---
 
-[^1]: this is a plain footnote
-
-[^2]: link: [http://www.google.com](http://www.google.com)
 
 
 
