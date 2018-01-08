@@ -105,8 +105,7 @@ success blockquote
 >
 > Use this for success messages.
 
-> **info-icon**
-> Content goes here
+
 
 
 [^1]: this is a plain footnote
@@ -114,5 +113,9 @@ success blockquote
 [^2]: link: [http://www.google.com](http://www.google.com)
 
 
-test change from gitbook editor
+> **info-icon**
+> Content goes here
+
+
+
 
