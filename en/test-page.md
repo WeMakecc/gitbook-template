@@ -104,10 +104,29 @@ this is code included from the `timer.ino` file in the `code` folder:
 
 # Special blockquotes {#specialblockquote}
 
-info blockquote
-> **[info] For info**
->
-> Use this for infomation messages.
+> **info-icon**
+> Content goes here
+
+> **info**
+> Content goes here
+
+> **tip-icon**
+> Content goes here
+
+> **tip**
+> Content goes here
+
+> **danger-icon**
+> Content goes here
+
+> **danger**
+> Content goes here
+
+> **success-icon**
+> Content goes here
+
+> **success**
+> Content goes here
 
 ---
 
