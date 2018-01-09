@@ -31,11 +31,6 @@
     display: none;
 }
 
-/* center align pics with caption */
-figure {
-  text-align: center;
-}
-
 /* this is not working :( */
 .ace {
   max-height: 500px!important;
