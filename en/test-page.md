@@ -109,8 +109,7 @@ this is code included from the `timer.ino` file in the `code` folder:
 
 test
 
-> **info-icon**
-> Here is an info blockquote with icon
+
 
 ---
 
