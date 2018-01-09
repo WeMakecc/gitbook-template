@@ -17,7 +17,7 @@ This file file serves as your book's preface, a great place to describe your boo
     * include codeblock from external file ([link](https://plugins.gitbook.com/plugin/include-codeblock))
     * printlinks for printed version ([link](https://plugins.gitbook.com/plugin/printlinks)) [not working]
     * image captions ([link](https://plugins.gitbook.com/plugin/image-captions-extended))
-    * page footer ([link](https://plugins.gitbook.com/plugin/page-footer))
+    * **page footer** ([link](https://plugins.gitbook.com/plugin/page-footer))
 * glossary
 * layout elements
   * ~~titles~~
