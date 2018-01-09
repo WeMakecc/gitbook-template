@@ -104,8 +104,8 @@ this is code included from the `timer.ino` file in the `code` folder:
 
 # Special blockquotes {#specialblockquote}
 
-> **info**
-> Here is an info blockquote without icon
+> **tip**
+> Content goes here
 
 ---
 
