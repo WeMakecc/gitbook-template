@@ -1,5 +1,26 @@
 {
     "plugins": [
-        "styled-blockquotes"
-    ]
+        "anchorjs",
+        "styled-blockquotes",
+        "todo",
+        "include-codeblock",
+        "ace",
+        "copy-code-button",
+        "image-captions"
+    ],
+    "pluginsConfig": {
+        "anchorjs": {
+            "placement": "left",
+            "visible": "hover",
+            "class": "anchorjs-link"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true
+        },
+        "image-captions": {
+            "caption": "_CAPTION_",
+            "attributes": { "style": "margin: 0 auto; display: block;" }
+        }
+    }
 }
