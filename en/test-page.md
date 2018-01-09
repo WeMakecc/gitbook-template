@@ -117,7 +117,7 @@ success blockquote
 
 <img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
 You can have images aligned to the left with a tiny bit of HTML
-```
+```html
 
 <img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
 
@@ -138,7 +138,7 @@ When trying some _markdown_ syntax it **will** just be rendered as regular HTML 
 </p>
 
 Please check the code snippet below to see the HTML used to render the layout above:
-```
+```html
 <p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="150px" align="left" style="margin-right:10px">
 You can achieve such a result with a little bit of HTML, but unfortunately you won't be able to use markdown syntax anymore :(
 </p>  
