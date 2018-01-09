@@ -107,6 +107,10 @@ this is code included from the `timer.ino` file in the `code` folder:
 > **info-icon**
 > Here is an info blockquote with icon
 
+
+> **success-icon**
+> Here is a success blockquote with icon
+
 ---
 
 # Images {#images}
@@ -148,9 +152,6 @@ When trying some _markdown_ syntax it **will** just be rendered as regular HTML 
 ```
 
 <img src="../assets/rodrigomuller-acdc.jpg" align="center" alt="center aligned images can have a caption">
-
-> **success-icon**
-> Here is a success blockquote with icon
 
 
 
