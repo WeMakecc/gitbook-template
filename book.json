@@ -20,7 +20,7 @@
             "unindent": true
         },
         "image-captions": {
-            "attributes": { "margin": "0 auto" }
+            "attributes": { "style": "margin: 0 auto" }
         }
     }
 }
