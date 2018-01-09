@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "alerts",
         "anchorjs",
         "styled-blockquotes",
         "todo",
