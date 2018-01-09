@@ -107,7 +107,7 @@ this is code included from the `timer.ino` file in the `code` folder:
 >**info**
 > Here is an info blockquote without icon
 
-test
+
 
 
 
