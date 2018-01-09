@@ -107,6 +107,7 @@ this is code included from the `timer.ino` file in the `code` folder:
 > **info-icon**
 > Here is an info blockquote with icon
 
+a
 
 > **success-icon**
 > Here is a success blockquote with icon
