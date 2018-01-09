@@ -115,8 +115,8 @@ success blockquote
 
 ---
 
-This is some text that I would like to sit on the left of the image.
-<img src="../assets/rodrigomuller-acdc.jpg" alt="test caption from html tag" width="50%" float="right">
+<img src="../assets/rodrigomuller-acdc.jpg" width="50%" float="right"> This is some text that I would like to sit on the left of the image.
+
 
 
 
