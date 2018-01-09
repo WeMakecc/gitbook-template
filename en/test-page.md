@@ -124,11 +124,20 @@ You can have images aligned to the left with a tiny bit of HTML
 ```
 but in order to not break the flow, the text should wrap the image in its entirety, so you need to be sure the ratio between the image size and the amount of text is good. You can also decide the image size in the `image` tag with the `width` attribute. It can be expressed absolutely in px, or relatively in %. If you don't declare the `height` attribute the image will resize accordingly.
 
-<img src="../assets/rodrigomuller-acdc.jpg" width="100px" align="right" style="margin-right:10px">
-Of course images can also be aligned to the right, just be sure the ration between the image size and the amount of text will always make the text wrap the image.
+<img src="../assets/rodrigomuller-acdc.jpg" width="100px" align="right" style="margin-left:10px">
+Of course images can also be aligned to the right, just be sure the ration between the image size and the amount of text will always make the text wrap the image. This can be tricky at times, so to reach a good output layout you might do some trial and error.
 
+###### A list of images with description on the right
+<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
+You can achieve such a result with a little bit of HTML, please see code snippet below
+```
 
-<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left"> This is some text that I would like to sit on the right of the image. The image is aligned to the right and width has been set to 50%</p>  
+<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
+Some text you want to show on the right side of the image
+</p>
+
+```
+</p>  
 
 
 <p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left">
