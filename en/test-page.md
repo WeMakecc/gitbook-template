@@ -63,8 +63,8 @@ _**Bold and italic text**_
 
 You can link to a [heading within the same article](#title) or to [an heading in another article](/chapter-1/content.md#content)
 
-You can link to an [article](/chapter-1/README.md/#readme)
-(if you are linking to a `readme` file you need to link to `readme.html
+You can link to an [article](/chapter-1/content.md)
+(but if you are linking to a `readme` file you need to use a special syntax `[article](/chapter-1/README.md/#readme)`)
 
 You can of course always link to [whatever web address](http://www.google.com)
 
