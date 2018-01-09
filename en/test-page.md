@@ -128,12 +128,12 @@ but in order to not break the flow, the text should wrap the image in its entire
 Of course images can also be aligned to the right, just be sure the ration between the image size and the amount of text will always make the text wrap the image. This can be tricky at times, so to reach a good output layout you might do some trial and error.
 
 ###### A list of images with description on the right
-<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
+<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="150px" align="left" style="margin-right:10px">
 You can achieve such a result with a little bit of HTML, but unfortunately you won't be able to use markdown syntax anymore :(
 </p>  
 
 
-<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left">
+<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="150px" align="left">
 When trying some _markdown_ syntax it **will** just be rendered as regular HTML text
 </p>
 
