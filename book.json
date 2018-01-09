@@ -20,8 +20,8 @@
             "unindent": true
         },
         "image-captions": {
-            "attributes": {
-                "style": "margin: 0 auto; display: block;"}
+            "caption": "_CAPTION_",
+            "attributes": { "style": "margin: 0 auto; display: block;" }
         }
     }
 }
