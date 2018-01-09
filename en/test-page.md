@@ -134,7 +134,7 @@ You can achieve such a result with a little bit of HTML, but unfortunately you w
 
 
 <p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="150px" align="left" style="margin-right:10px">
-When trying some _markdown_ syntax it **will** just be rendered as regular HTML text
+When trying some _markdown_ syntax it **will** just be rendered as regular HTML text...
 </p>
 
 
