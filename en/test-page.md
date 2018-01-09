@@ -117,6 +117,8 @@ success blockquote
 
 ![You can add image caption as alt text](../assets/rodrigomuller-acdc.jpg)
 
+<img src="../assets/rodrigomuller-acdc.jpg" alt="test caption from html tag">
+
 
 
 
