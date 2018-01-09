@@ -105,28 +105,28 @@ this is code included from the `timer.ino` file in the `code` folder:
 # Special blockquotes {#specialblockquote}
 
 > **info-icon**
-> Content goes here
+> Here is an info blockquote with icon
 
 > **info**
-> Content goes here
+> Here is an info blockquote without icon
 
 > **tip-icon**
-> Content goes here
+> Here is a tip blockquote with icon
 
 > **tip**
-> Content goes here
+> Here is a tip blockquote without icon
 
 > **danger-icon**
-> Content goes here
+> Here is a danger blockquote with icon
 
 > **danger**
-> Content goes here
+> Here is a danger blockquote without icon
 
 > **success-icon**
-> Content goes here
+> Here is a success blockquote with icon
 
 > **success**
-> Content goes here
+> Here is a success blockquote without icon
 
 ---
 
