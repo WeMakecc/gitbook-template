@@ -6,8 +6,9 @@
 ## CHAPTER 1
 
 * [chapter 1](/chapter-1/README.md)
+* [content of chapter 1](/chapter-1/content.md)
 
-## CHPTER 2
+## CHAPTER 2
 
 * [chapter 2](/chapter-2/README.md)
 
