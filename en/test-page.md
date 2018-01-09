@@ -128,14 +128,14 @@ but in order to not break the flow, the text should wrap the image in its entire
 Of course images can also be aligned to the right, just be sure the ration between the image size and the amount of text will always make the text wrap the image. This can be tricky at times, so to reach a good output layout you might do some trial and error.
 
 ###### A list of images with description on the right
-<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
-You can achieve such a result with a little bit of HTML, please see code snippet below
+{% raw %}<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
+You can achieve such a result with a little bit of HTML, please see code snippet below{% endraw %}
 ```
 <p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
 Some text you want to show on the right side of the image
 </p>
 ```
-</p>  
+{% raw %}</p>{% endraw %}  
 
 
 <p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left">
