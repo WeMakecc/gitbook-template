@@ -6,7 +6,8 @@
         "todo",
         "include-codeblock",
         "ace",
-        "copy-code-button"
+        "copy-code-button",
+        "image-captions"
     ],
     "pluginsConfig": {
         "anchorjs": {
