@@ -104,12 +104,13 @@ this is code included from the `timer.ino` file in the `code` folder:
 
 # Special blockquotes {#specialblockquote}
 
+> **info-icon**
+> Here is an info blockquote with icon
+
+test
+
 > **info**
 > Here is an info blockquote without icon
-
-
-
-
 
 ---
 
