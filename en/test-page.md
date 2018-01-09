@@ -107,6 +107,11 @@ this is code included from the `timer.ino` file in the `code` folder:
 > **tip**
 > Content goes here
 
+or
+
+> **tip-icon**
+> Content goes here
+
 ---
 
 # Images {#images}
