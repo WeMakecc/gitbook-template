@@ -115,7 +115,14 @@ success blockquote
 
 ---
 
-<img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="right"> This is some text that I would like to sit on the left of the image. 
+<img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="right"> This is some text that I would like to sit on the left of the image. The image is aligned to the right and width has been set to 50%
+
+<img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left"> This is some text that I would like to sit on the right of the image. The image is aligned to the left and width has been set to 50%
+
+<img src="../assets/rodrigomuller-acdc.jpg" align="center" alt="this image is center aligned, real width, and has a caption">
+
+
+
 
 
 
