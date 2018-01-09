@@ -61,7 +61,7 @@ _**Bold and italic text**_
 
 # Links {#links}
 
-You can link to a [heading within the same article](#title) or to [an heading in another article](/chapter-1/readme.md#readme)
+You can link to a [heading within the same article](#title) or to [an heading in another article](/chapter-1/content.md#content)
 
 You can link to an [article](/chapter-2/readme.md)
 
