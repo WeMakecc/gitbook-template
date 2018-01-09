@@ -107,40 +107,10 @@ this is code included from the `timer.ino` file in the `code` folder:
 >**info-icon**
 > Here is an info blockquote with icon
 
--
+test
 
 > **info**
 > Here is an info blockquote without icon
-
--
-
-> **tip-icon**
-> Here is a tip blockquote with icon
-
--
-
-> **tip**
-> Here is a tip blockquote without icon
-
--
-
-> **danger-icon**
-> Here is a danger blockquote with icon
-
--
-
-> **danger**
-> Here is a danger blockquote without icon
-
--
-
-> **success-icon**
-> Here is a success blockquote with icon
-
--
-
-> **success**
-> Here is a success blockquote without icon
 
 ---
 
