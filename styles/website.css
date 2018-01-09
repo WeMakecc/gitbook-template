@@ -31,6 +31,7 @@
     display: none;
 }
 
+/* center align pics with caption */
 figure {
   text-align: center;
 }
