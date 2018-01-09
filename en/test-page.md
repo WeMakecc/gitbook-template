@@ -63,7 +63,7 @@ _**Bold and italic text**_
 
 You can link to a [heading within the same article](#title) or to [an heading in another article](/chapter-1/content.md#content)
 
-You can link to an [article](/chapter-2/readme.md)
+You can link to an [article](/chapter-2/content.md)
 
 You can of course always link to [whatever web address](http://www.google.com)
 
