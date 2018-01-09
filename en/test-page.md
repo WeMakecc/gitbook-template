@@ -116,7 +116,6 @@ success blockquote
 ---
 
 <img src="../assets/rodrigomuller-acdc.jpg" alt="caption text" width="50%" align="left" style="margin-right:10px">
-
 You can have images aligned to the left with a tiny bit of HTML
 ```html
 
@@ -154,7 +153,5 @@ When trying some _markdown_ syntax it **will** just be rendered as regular HTML 
 
 
 
-<img src="../assets/rodrigomuller-acdc.jpg" align="center" alt="this image is center aligned, real width, and has a caption" style="border:1px solid red;">
-
-You can have images aligned to the left
+<img src="../assets/rodrigomuller-acdc.jpg" align="center" alt="center aligned images can have a caption">
 
