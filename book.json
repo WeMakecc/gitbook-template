@@ -18,6 +18,9 @@
         "include-codeblock": {
             "template": "ace",
             "unindent": true
+        },
+        "image-captions": {
+            "attributes": { "text-align": "center" }
         }
     }
 }
