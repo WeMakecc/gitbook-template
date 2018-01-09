@@ -115,7 +115,7 @@ success blockquote
 
 ---
 
-<img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px" alt="caption text">
+<img src="../assets/rodrigomuller-acdc.jpg" alt="caption text" width="50%" align="left" style="margin-right:10px">
 You can have images aligned to the left with a tiny bit of HTML
 ```html
 
