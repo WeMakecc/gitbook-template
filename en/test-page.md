@@ -114,6 +114,16 @@ or
 
 ---
 
+# Tables
+|you|can|create|tables|
+|-|-|-|-|
+|no matter the amount|of columns or rows|as long as you remember that tables are fluid and not responsive, and usually have layout problems with smaller resolutions||
+|another row|it looks alternated|and can have one less column|
+|some markdown syntax is accepted in cells|**bold text**|![](../assets/rodrigomuller-acdc.jpg)|_italic text_|
+|<ol><li>of course</li><li>you can</li><li>have html</li><li>in a cell</li></ol>|
+
+---
+
 # Images {#images}
 
 <img src="../assets/rodrigomuller-acdc.jpg" alt="caption text" width="50%" align="left" style="margin-right:10px">
