@@ -154,11 +154,5 @@ When trying some _markdown_ syntax it **will** just be rendered as regular HTML 
 
 
 <img src="../assets/rodrigomuller-acdc.jpg" align="center" alt="this image is center aligned, real width, and has a caption" style="border:1px solid red;">
-
-
-
-
-
-
-
+You can have images aligned to the left
 
