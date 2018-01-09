@@ -65,6 +65,8 @@ You can link to a [heading within the same article](#title) or to [an heading in
 
 You can link to an [article](/chapter-2/readme.md)
 
+You can also link to [whatever web address](http://www.google.com)
+
 ---
 
 # Footnotes {#footnotes}
