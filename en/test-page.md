@@ -16,6 +16,8 @@
 
 ---
 
+# Paragraphs {#paragraphs}
+
 Regular paragraph text
 
 **Bold text**
@@ -27,6 +29,8 @@ _**Bold and italic text**_
 ~~Strikethrough text~~
 
 ---
+
+# Lists {#lists}
 
 1. First ordered list item
 2. Another item
@@ -48,10 +52,14 @@ _**Bold and italic text**_
 
 ---
 
+# Tasks list {#tasks}
+
 - [ ] task 1
 - [x] task 2
 
 ---
+
+# Footnotes {#footnotes}
 
 footnote[^1]
 
@@ -63,12 +71,7 @@ footnote [link](/www.google.com)[^2]
 
 ---
 
-> this is a very famous quote, you should read it 'cause it will make you smarter.
->
-> and it can continue on a second paragraph.  
-> and you can also have a single line break without starting a new paragraph
-
----
+# Code {#code}
 
 ```
 this is a
@@ -89,6 +92,17 @@ this is code included from the `timer.ino` file in the `code` folder:
 [include](../code/timer.ino)
 
 ---
+
+# Blockquote {#blockquote}
+
+> this is a very famous quote, you should read it 'cause it will make you smarter.
+>
+> and it can continue on a second paragraph.  
+> and you can also have a single line break without starting a new paragraph
+
+---
+
+# Special blockquotes {#specialblockquote}
 
 info blockquote
 > **[info] For info**
@@ -114,6 +128,8 @@ success blockquote
 > Use this for success messages.
 
 ---
+
+# Images {#images}
 
 <img src="../assets/rodrigomuller-acdc.jpg" alt="caption text" width="50%" align="left" style="margin-right:10px">
 You can have images aligned to the left with a tiny bit of HTML
@@ -150,8 +166,6 @@ You can achieve such a result with a little bit of HTML, but unfortunately you w
 When trying some _markdown_ syntax it **will** just be rendered as regular HTML text...
 </p>
 ```
-
-
 
 <img src="../assets/rodrigomuller-acdc.jpg" align="center" alt="center aligned images can have a caption">
 

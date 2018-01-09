@@ -21,20 +21,21 @@ This file file serves as your book's preface, a great place to describe your boo
 * glossary
 * layout elements
   * ~~titles~~
-  * links \(with footnotes\) \(test printlinks plugin)
+  * ~~links \(with footnotes\)~~
+  * internal links
   * ~~text regular, strong, italic, underline~~
   * ~~code block~~
   * ~~quote block~~
   * ~~highlighted section~~
   * ~~footnotes~~
-  * BOM table
-  * pictures
-    * positioning?
+  * tables
+  * ~~pictures~~
+    * ~~positioning?~~
 * video
 * embeds?
 * theme layout
   * one pager
   * step by step guide
-  * 
+  * BOM
 * book cover
 
