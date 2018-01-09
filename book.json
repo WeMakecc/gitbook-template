@@ -21,9 +21,7 @@
         },
         "image-captions": {
             "attributes": {
-                "style": "margin: 0 auto",
-                "display": "block"
-            }
+                "style": "margin: 0 auto; display: block;"}
         }
     }
 }
