@@ -115,7 +115,7 @@ success blockquote
 
 ---
 
-
+![You can add image caption as alt text](/assets/rodrigomuller-acdc.jpg)
 
 
 
