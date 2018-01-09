@@ -59,6 +59,14 @@ _**Bold and italic text**_
 
 ---
 
+# Links {#links}
+
+You can link to a [heading within the same article](#<title>) or to an heading in another article
+
+You can link to an article
+
+---
+
 # Footnotes {#footnotes}
 
 footnote[^1]
