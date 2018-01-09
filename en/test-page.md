@@ -131,11 +131,9 @@ Of course images can also be aligned to the right, just be sure the ration betwe
 <p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
 You can achieve such a result with a little bit of HTML, please see code snippet below
 ```
-
 <p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
 Some text you want to show on the right side of the image
 </p>
-
 ```
 </p>  
 
