@@ -115,10 +115,12 @@ success blockquote
 
 ---
 
-<img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left">
+<img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" margin-right="10px">
 You can have images aligned to the left with a tiny bit of HTML
 ```
+
 <img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left">
+
 ```
 but in order to not break the flow, the text should wrap the image in its entirety, so you need to be sure the ratio between the image size and the amount of text is good. You can also decide the image size in the `image` tag with the `width` attribute. It can be expressed absolutely in px, or relatively in %. If you don't declare the `height` attribute the image will resize accordingly.
 
