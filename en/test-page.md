@@ -115,9 +115,8 @@ success blockquote
 
 ---
 
-![You can add image caption as alt text](../assets/rodrigomuller-acdc.jpg)
-
-<img src="../assets/rodrigomuller-acdc.jpg" alt="test caption from html tag">
+This is some text that I would like to sit on the left of the image.
+<img src="../assets/rodrigomuller-acdc.jpg" alt="test caption from html tag" width="50%">
 
 
 
