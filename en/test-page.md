@@ -120,7 +120,7 @@ this is code included from the `timer.ino` file in the `code` folder:
 
 or
 
-> **tip-icon**
+> **tip no-icon**
 > Content goes here
 
 ---
