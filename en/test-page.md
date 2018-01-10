@@ -211,10 +211,11 @@ When trying some _markdown_ syntax it **will** just be rendered as regular HTML 
 
 You can embed videos in a gitbook. They will be displayed as an interactive element in website view and as a link in PDF view.
 
+Videos can be embedded from youtube:
+{{ 'https://www.youtube.com/watch?v=U0sZulbldWg' | video }}
 
-
-
-Or from Drive (with a different syntax):
+From Vimeo:
+{{ 'https://vimeo.com/174632471' | video }}
 
 
 
