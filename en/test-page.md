@@ -217,6 +217,5 @@ Videos can be embedded from youtube:
 From Vimeo:
 {{ 'https://vimeo.com/174632471' | video }}
 
-
 Or from Drive (with a different syntax):
 {% gdrive %} https://drive.google.com/file/d/12yyAYTldr82RhGU926Smcs8tFqEJd8al/view?usp=sharing {% gdrive %}
