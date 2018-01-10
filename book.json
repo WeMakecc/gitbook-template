@@ -7,7 +7,7 @@
         "ace",
         "copy-code-button",
         "image-captions",
-        "noembed",
+        "noembed"
     ],
     "pluginsConfig": {
         "anchorjs": {
