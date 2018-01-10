@@ -24,17 +24,7 @@
             "attributes": { "style": "margin: 0 auto; display: block;" }
         },
         "page-footer": {
-            "description": "modified at",
-            "signature": "Aleen",
-            "wisdom": "More than a coder, more than a designer",
-            "format": "yyyy-MM-dd hh:mm:ss",
-            "copyright": "Copyright &#169; aleen42",
-            "timeColor": "#666",
-            "copyrightColor": "#666",
-            "utcOffset": "8",
-            "isShowQRCode": true,
-            "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
-            "styles": "normal"
+            
         }
     }
 }
