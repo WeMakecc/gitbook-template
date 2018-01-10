@@ -34,7 +34,8 @@
             "copyrightColor": "#666",
             "utcOffset": "1",
             "baseUri": "https://wemakecc.gitbooks.io/gitbook-template",
-            "style": "normal"
+            "style": "normal",
+            "isShowQRCode": false
         }
     }
 }
