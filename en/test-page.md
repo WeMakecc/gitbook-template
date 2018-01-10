@@ -209,9 +209,9 @@ When trying some _markdown_ syntax it **will** just be rendered as regular HTML 
 
 # Video {#video}
 
-{{ 'https://vimeo.com/31942602' | noembed }}
+{{ 'https://www.youtube.com/watch?v=U0sZulbldWg' | video }}
 
-or
+{{ 'https://vimeo.com/174632471' | video }}
 
-{{ 'https://vimeo.com/31942602' | video }}
+
 
