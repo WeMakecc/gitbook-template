@@ -118,12 +118,12 @@ this is code included from the `timer.ino` file in the `code` folder:
 > **info**
 > This is an info blockquote with icon (the icon will not render in the PDF...)
 
-(you need characters in between)
+(you need characters in between two sequential blockquotes)
 
 > **info no-icon**
 > This is an info blockquote without icon
 
-(you need characters in between)
+(you need characters in between two sequential blockquotes)
 
 > **tip**
 > This is a tip blockquote with icon (the icon will not render in the PDF...)
@@ -141,7 +141,7 @@ this is code included from the `timer.ino` file in the `code` folder:
 (you need characters in between two sequential blockquotes)
 
 > **danger no-icon**
-> This is an info blockquote without icon
+> This is a danger blockquote without icon
 
 (you need characters in between two sequential blockquotes)
 
