@@ -6,7 +6,8 @@
         "include-codeblock",
         "ace",
         "copy-code-button",
-        "image-captions"
+        "image-captions",
+        "noembed"
     ],
     "pluginsConfig": {
         "anchorjs": {
