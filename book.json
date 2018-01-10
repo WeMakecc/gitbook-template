@@ -24,7 +24,17 @@
             "attributes": { "style": "margin: 0 auto; display: block;" }
         },
         "page-footer": {
-            "isShowIssues": false
+            "isShowIssues": false,
+            "description": "modified at",
+            "signature": "WeMake",
+            "wisdom": "More than a coder, more than a designer",
+            "format": "yyyy-MM-dd hh:mm:ss",
+            "copyright": "CC WeMake",
+            "timeColor": "#666",
+            "copyrightColor": "#666",
+            "utcOffset": "1",
+            "baseUri": "https://wemakecc.gitbooks.io/gitbook-template",
+            "style": "normal"
         }
     }
 }
