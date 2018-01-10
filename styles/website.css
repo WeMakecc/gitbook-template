@@ -32,7 +32,7 @@
 }
 
 p.copyright {
-  display: none;
+  display: none!important;
 }
 
 /* this is not working :( */
