@@ -7,7 +7,8 @@
         "ace",
         "copy-code-button",
         "image-captions",
-        "noembed"
+        "noembed",
+        "google-drive-video"
     ],
     "pluginsConfig": {
         "anchorjs": {
