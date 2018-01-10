@@ -31,6 +31,10 @@
     display: none;
 }
 
+p.copyright {
+  display: none;
+}
+
 /* this is not working :( */
 .ace {
   max-height: 500px!important;
