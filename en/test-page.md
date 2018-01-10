@@ -209,9 +209,11 @@ When trying some _markdown_ syntax it **will** just be rendered as regular HTML 
 
 # Video {#video}
 
-{{ 'https://www.youtube.com/watch?v=U0sZulbldWg' | video }}
+You can embed videos in a gitbook. They will be displayed as an interactive element in website view and as a link in PDF view.
 
-{{ 'https://vimeo.com/174632471' | video }}
+lala{{ 'https://www.youtube.com/watch?v=U0sZulbldWg' | video }}
+
+{{ 'https://vimeo.com/174632471' | video }}lala
 
 
 
