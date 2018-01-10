@@ -205,5 +205,13 @@ When trying some _markdown_ syntax it **will** just be rendered as regular HTML 
 
 <img src="../assets/rodrigomuller-acdc.jpg" align="center" alt="center aligned images can have a caption">
 
+---
 
+# Video {#video}
+
+{{ 'https://vimeo.com/31942602' | noembed }}
+
+or
+
+{{ 'https://vimeo.com/31942602' | video }}
 
