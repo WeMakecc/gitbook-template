@@ -223,4 +223,4 @@ From Vimeo:
 
 # PDF embed {#pdf}
 
-{% pdf src="/assets/example.pdf", width="100%", height="700" %}{% endpdf %}
+{% pdf src="../assets/opencare-graphic-guide.pdf", width="100%", height="700" %}{% endpdf %}
