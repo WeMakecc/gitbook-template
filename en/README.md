@@ -31,11 +31,11 @@ This file file serves as your book's preface, a great place to describe your boo
   * ~~tables~~
   * ~~pictures~~
     * ~~positioning?~~
-* video
-* embeds?
+* ~~video~~
+* ~~embeds~~
 * theme layout
   * one pager
   * step by step guide
   * BOM
-* book cover
+* ~~book cover~~
 
