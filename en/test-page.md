@@ -156,6 +156,7 @@ this is code included from the `timer.ino` file in the `code` folder:
 ---
 
 # Tables
+
 |you|can|create|tables|
 |-|-|-|-|
 |no matter the amount|of columns or rows|as long as you remember that tables are fluid and not responsive, and usually have layout problems with smaller resolutions||
