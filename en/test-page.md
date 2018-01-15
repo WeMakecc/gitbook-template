@@ -227,3 +227,5 @@ It is also possible to embed PDF files in the gitbook.
 [Please note that, unfortunately, the generated links are broken in the PDF downloaded from gitbook.com]
 
 {% pdf src="../assets/opencare-graphic-guide.pdf", width="100%", height="700" %}{% endpdf %}
+
+---
