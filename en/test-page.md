@@ -229,3 +229,49 @@ It is also possible to embed PDF files in the gitbook.
 {% pdf src="../assets/opencare-graphic-guide.pdf", width="100%", height="700" %}{% endpdf %}
 
 ---
+
+# Book Cover {#cover}
+
+It is possible to add a cover for the PDF and Ebook versions of the book.
+There are two possible ways of adding a cover.
+
+**Auto cover plugin**
+Open the `book.json` file in the root directory of your book and:
+* edit the `"title": "My Book"` value with your book title
+* edit the `"author": "Author"` value with your book author details
+* scroll down, find the `pluginsConfig` and `autocover` keys and
+  * inside the `font` value you can:
+    * edit the `size` value with desired font size (20 min suggested)
+    * edit the `family` value with the desired font face (for a list of web safe fonts please check [here](https://www.w3schools.com/cssref/css_websafe_fonts.asp)) 
+    * edit the `color` value with your desired hex color (this would only affect the font color)
+  * leave the `size` value unchanged
+  * inside the `background` value you can edit the `color` value with your desired background color in hex
+
+
+**Custom cover**
+Create an artwork with the software of your choice following this criteria:
+* Save the file in `JPEG` format with name `cover.jpg` in the root of the directory of the book. Adding a `cover_small.jpg` will specify a smaller version of the cover.
+* Size of 1800x2360 pixels for `cover.jpg`, 200x262 for `cover_small.jpg`
+
+When you are done please head to the `book.json` file in the root directory of your book and:
+* delete the `"autocover"` value inside the `"plugins"` array
+* delete the
+```
+"autocover": {
+            "font": {
+                "size": null,
+                "family": "Impact",
+                "color": "#FFF"
+            },
+            "size": {
+                "w": 1800,
+                "h": 2360
+            },
+            "background": {
+                "color": "#09F"
+            }
+        }
+```
+found inside the `pluginsConfig` key
+
+Please, when deleting code from the `book.json`, always make sure you also remove commas that might precede the line you want to remove.
