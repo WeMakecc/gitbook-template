@@ -274,7 +274,8 @@ When you are done please head to the `book.json` file in the root directory of y
 ```
 found inside the `pluginsConfig` key
 
-**_IMPORTANT_** Please, when deleting code from the `book.json`, always make sure you also remove the comma that might precede the line you want to remove.
+**_IMPORTANT_** Please, when deleting code from the `book.json`, always make sure you also remove the comma that might precede the line you want to remove. _The build of the book will break otherwise_
+
 For instance, remove the last comma in this situation
 ```
 "plugins": [
@@ -289,7 +290,7 @@ For instance, remove the last comma in this situation
         "embed-pdf",
     ]
 ```
-Correct:
+Correct syntax:
 ```
 "plugins": [
         "anchorjs",
