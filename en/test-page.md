@@ -274,4 +274,32 @@ When you are done please head to the `book.json` file in the root directory of y
 ```
 found inside the `pluginsConfig` key
 
-Please, when deleting code from the `book.json`, always make sure you also remove commas that might precede the line you want to remove.
+**_IMPORTANT_** Please, when deleting code from the `book.json`, always make sure you also remove the comma that might precede the line you want to remove.
+For instance, remove the last comma in this situation
+```
+"plugins": [
+        "anchorjs",
+        "styled-blockquotes",
+        "todo",
+        "include-codeblock",
+        "ace",
+        "copy-code-button",
+        "image-captions",
+        "noembed",
+        "embed-pdf",
+    ]
+```
+Correct:
+```
+"plugins": [
+        "anchorjs",
+        "styled-blockquotes",
+        "todo",
+        "include-codeblock",
+        "ace",
+        "copy-code-button",
+        "image-captions",
+        "noembed",
+        "embed-pdf"
+    ]
+```

@@ -11,6 +11,7 @@
         "image-captions",
         "noembed",
         "embed-pdf",
+        "autocover"
     ],
     "pluginsConfig": {
         "anchorjs": {
@@ -26,5 +27,19 @@
             "caption": "_CAPTION_",
             "attributes": { "style": "margin: 0 auto; display: block;" }
         },
+        "autocover": {
+            "font": {
+                "size": 20,
+                "family": "Impact",
+                "color": "#FFF"
+            },
+            "size": {
+                "w": 1800,
+                "h": 2360
+            },
+            "background": {
+                "color": "#09F"
+            }
+        }
     }
 }
