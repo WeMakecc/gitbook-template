@@ -219,4 +219,8 @@ From Vimeo:
 {{ 'https://vimeo.com/174632471' | video }}
 
 
+---
 
+# PDF embed {#pdf}
+
+{% pdf src="/assets/example.pdf", width="100%", height="700" %}{% endpdf %}
