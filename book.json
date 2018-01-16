@@ -11,7 +11,8 @@
         "image-captions",
         "noembed",
         "embed-pdf",
-        "autocover"
+        "autocover",
+        "gitbook-plugin-mytest@git+https://github.com/WeMakecc/gitbook-plugin-test.git#1.0.0"
     ],
     "pluginsConfig": {
         "anchorjs": {
