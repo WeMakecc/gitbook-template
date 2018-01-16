@@ -12,7 +12,7 @@
         "noembed",
         "embed-pdf",
         "autocover",
-        "gitbook-plugin-mytest@git+https://github.com/WeMakecc/gitbook-plugin-test.git#1.0.0"
+        "gitbook-plugin-mytest@git+https://github.com/WeMakecc/gitbook-plugin-test.git"
     ],
     "pluginsConfig": {
         "anchorjs": {
