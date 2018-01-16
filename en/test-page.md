@@ -304,3 +304,9 @@ Correct syntax:
         "embed-pdf"
     ]
 ```
+
+---
+
+{% tag1}
+Ale
+{% endtag1 %}
