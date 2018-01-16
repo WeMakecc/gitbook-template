@@ -11,7 +11,8 @@
         "image-captions",
         "noembed",
         "embed-pdf",
-        "autocover"
+        "autocover",
+        "theme-faq"
     ],
     "pluginsConfig": {
         "anchorjs": {
