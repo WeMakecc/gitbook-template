@@ -312,7 +312,10 @@ Correct syntax:
 {% endimage %}
 lalalalal lalalala lalalala
 
+
+
 ---
+
 
 {% grid %}
   {% col 1 %}First
