@@ -315,8 +315,8 @@ lalalalal lalalala lalalala
 ---
 
 {% double-column %}
-  {% column-one %}
+  {% col 1 %}
   this is text in column 1
-  {% column-two %}
+  {% col 2 %}
   this is text in column 2
 {% enddouble-column %}
