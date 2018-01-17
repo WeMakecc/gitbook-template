@@ -307,6 +307,6 @@ Correct syntax:
 
 ---
 
-{% tag1}
+{% tag1 %}
 Ale
 {% endtag1 %}
