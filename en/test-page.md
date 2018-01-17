@@ -307,6 +307,6 @@ Correct syntax:
 
 ---
 
-{% tag1 %}
-Ale
-{% endtag1 %}
+{% image "test image", "200px", "left", "margin-right:10px" %}
+../assets/rodrigomuller-acdc.jpg
+{% endimage %}
