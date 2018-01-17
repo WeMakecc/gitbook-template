@@ -12,7 +12,7 @@
         "noembed",
         "embed-pdf",
         "autocover",
-        "gitbook-plugin-layout-tags"
+        "layout-tags"
     ],
     "pluginsConfig": {
         "anchorjs": {
