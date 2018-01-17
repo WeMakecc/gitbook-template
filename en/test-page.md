@@ -307,6 +307,3 @@ Correct syntax:
 
 ---
 
-{% tag1}
-Ale
-{% endtag1 %}
