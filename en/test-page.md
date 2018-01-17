@@ -311,3 +311,12 @@ Correct syntax:
 ../assets/rodrigomuller-acdc.jpg
 {% endimage %}
 lalalalal lalalala lalalala
+
+---
+
+{% double-column %}
+  {% column-one %}
+  this is text in column 1
+  {% column-two %}
+  this is text in column 2
+{% enddouble-column %}
