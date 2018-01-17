@@ -314,9 +314,8 @@ lalalalal lalalala lalalala
 
 ---
 
-{% double-column %}
-  {% col 1 %}
-  this is text in column 1
-  {% col 2 %}
-  this is text in column 2
-{% enddouble-column %}
+{% grid %}
+  {% col 1 %}First
+  {% col 2 %}Second
+  {% col 3 %}Third
+{% endgrid %}
