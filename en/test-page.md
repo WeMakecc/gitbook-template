@@ -310,3 +310,4 @@ Correct syntax:
 {% image "test image", "200px", "left", "margin-right:10px" %}
 ../assets/rodrigomuller-acdc.jpg
 {% endimage %}
+lalalalal lalalala lalalala
