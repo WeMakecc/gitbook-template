@@ -173,7 +173,7 @@ The following markdown syntax
 ```
 Would output a regular image
 
-![](../assets/rodrigomuller-acdc.jpg)
+![ ](../assets/rodrigomuller-acdc.jpg)
 
 
 The following markdown syntax
