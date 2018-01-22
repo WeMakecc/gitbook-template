@@ -317,7 +317,7 @@ Correct syntax:
 
 {% grid %}
   {% col1 %}Lorem distillery meggings gluten-free, microdosing meh raw denim mustache master cleanse vice chambray woke fam. Tilde williamsburg Fanny pack beard normcore church-key messenger bag copper mug disrupt cornhole, vape prism ramps wolf umami. Viral four dollar toast kinfolk, butcher knausgaard you probably haven't heard of them vaporware VHS locavore seitan offal chillwave. Post-ironic celiac succulents, thundercats tousled shoreditch subway tile disrupt hammock occupy lo-fi vaporware.
-  {% col2 %}Lorem ipsum dolor amet cronut distillery meggings gluten-free, microdosing meh raw denim mustache master cleanse vice chambray woke Viral four dollar toast kinfolk, butcher knausgaard you probably haven't heard of them vaporware VHS locavore seitan offal chillwave. Post-ironic celiac succulents, thundercats tousled shoreditch subway tile disrupt hammock occupy lo-fi vaporware.
+  {% col2 %}Lorem lala ipsum dolor amet cronut distillery meggings gluten-free, microdosing meh raw denim mustache master cleanse vice chambray woke Viral four dollar toast kinfolk, butcher knausgaard you probably haven't heard of them vaporware VHS locavore seitan offal chillwave. Post-ironic celiac succulents, thundercats tousled shoreditch subway tile disrupt hammock occupy lo-fi vaporware.
 {% endgrid %}
 
 ---
