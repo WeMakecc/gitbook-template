@@ -180,13 +180,12 @@ If a caption is not needed, you can input a white space between the brackets
 ```markdown
 ![ ](../assets/rodrigomuller-acdc.jpg)
 ```
-This syntax would output a regular image without caption
+This syntax would then output a regular image without caption
 
 ![ ](../assets/rodrigomuller-acdc.jpg)
 
 
-
-
+###### Aligning images
 
 The `layout-tags` plugin would offer solutions to align images.
 
