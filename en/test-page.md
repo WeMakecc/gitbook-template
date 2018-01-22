@@ -316,6 +316,16 @@ Correct syntax:
 
 
 {% grid %}
-  {% col %}This is the first column, and got a lot of awesome content
-  {% col %}This is the second column, and also got a lot of awesome content
+  {% col %}Lorem *ipsum* **dolor** _**amet**_ ~~cronut~~ distillery meggings gluten-free, microdosing meh raw denim mustache master cleanse vice chambray woke fam. Tilde williamsburg
+1. enamel
+2. pin street art
+3. vice sriracha
+4. kitsch franzen.
+
+Fanny pack beard normcore church-key messenger bag copper mug disrupt cornhole, vape prism ramps wolf umami. Viral four dollar toast kinfolk, butcher knausgaard you probably haven't heard of them vaporware VHS locavore seitan offal chillwave. Post-ironic celiac succulents, thundercats tousled shoreditch subway tile disrupt hammock occupy lo-fi vaporware.
+  {% col %}Lorem ipsum dolor amet cronut distillery meggings gluten-free, microdosing meh raw denim mustache master cleanse vice chambray woke ![image](../assets/rodrigomuller-acdc.jpg) Viral four dollar toast kinfolk, butcher knausgaard you probably haven't heard of them vaporware VHS locavore seitan offal chillwave. Post-ironic celiac succulents, thundercats tousled shoreditch subway tile disrupt hammock occupy lo-fi vaporware.
 {% endgrid %}
+
+---
+
+![image](../assets/rodrigomuller-acdc.jpg)
