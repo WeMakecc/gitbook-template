@@ -1,3 +1,5 @@
+# GLOSSARY
+
 ## Text
 this is the definition of text
 
