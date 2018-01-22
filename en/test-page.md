@@ -350,9 +350,17 @@ Correct syntax:
 
 ---
 
-# BOM
+# Glossary
 
-A BOM layout can be achieved with special tags, thanks to the `layout-tags` plugin:
+It is possible to have a glossary of some terms recurring in the book.
+
+The terms need to be added in the [GLOSSARY.md](/GLOSSARY.md) page in the form of `h2` headings with some added text:
 ```
+## Term
+Definition for this term
+
+## Another term
+Definition for another term
 ```
 
+All the terms present in the glossary will be highlighted throughout the book.
