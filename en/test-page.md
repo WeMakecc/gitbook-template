@@ -185,7 +185,7 @@ This syntax would then output a regular image without caption
 ![ ](../assets/rodrigomuller-acdc.jpg)
 
 
-###### Aligning images
+##### Aligning images
 
 The `layout-tags` plugin would offer solutions to align images.
 
@@ -209,7 +209,7 @@ For instance, to align an image to the left you can use the following syntax
 
 Also, it is mandatory to always have the `image-text` tag, you can leave it empty if you don't need text to wrap around the image.
 
-If you do need text to wrap around the image, then this text needs to leave right after the `image_text` tag, see example:
+If you instead DO NEED text to wrap around the image, then this text needs to live right after the `image_text` tag, see example:
 ```
 {% image %}
   {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
@@ -218,48 +218,9 @@ If you do need text to wrap around the image, then this text needs to leave righ
 ```
 {% image %}
   {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
-  {% image_text %}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla justo lacus, mollis id orci eget, dignissim tincidunt mauris. Etiam eu dui nunc. Vestibulum pharetra sapien et lacus consectetur congue. Sed laoreet lectus arcu, sit amet rutrum mauris ornare et. In scelerisque varius enim, sit amet sollicitudin ipsum sodales ac. Mauris at lorem eget elit laoreet gravida eu at lorem. Sed scelerisque sagittis augue, in tempor risus consequat in. Integer mattis sem ac justo scelerisque, eu iaculis nulla porttitor. Morbi elementum nec felis ut congue. Maecenas faucibus odio id placerat pulvinar. Integer quis mauris viverra, sollicitudin odio non, tincidunt eros. Nunc cursus leo sem, sit amet venenatis diam elementum quis. Mauris dapibus varius suscipit.
+  {% image_text %}Lorem **ipsum** dolor sit amet, consectetur adipiscing elit. Nulla justo lacus, mollis id orci eget, dignissim tincidunt mauris. Etiam eu dui nunc. Vestibulum pharetra sapien et lacus consectetur congue. Sed laoreet lectus arcu, sit amet rutrum mauris ornare et. In scelerisque varius enim, sit amet sollicitudin ipsum sodales ac. Mauris at lorem eget elit laoreet gravida eu at lorem. Sed scelerisque sagittis augue, in tempor risus consequat in. Integer mattis sem ac justo scelerisque, eu iaculis nulla porttitor. Morbi elementum nec felis ut congue. Maecenas faucibus odio id placerat pulvinar. Integer quis mauris viverra, sollicitudin odio non, tincidunt eros. Nunc cursus leo sem, sit amet venenatis diam elementum quis. Mauris dapibus varius suscipit.
 {% endimage %}
 
-
-
-<img src="../assets/rodrigomuller-acdc.jpg" alt="caption text" width="50%" align="left" style="margin-right:10px">
-You can have images aligned to the left with a tiny bit of HTML
-```html
-
-<img src="../assets/rodrigomuller-acdc.jpg" width="50%" align="left" style="margin-right:10px">
-
-```
-but in order to not break the flow, the text should wrap the image in its entirety, so you need to be sure the ratio between the image size and the amount of text is good. You can also decide the image size in the `image` tag with the `width` attribute. It can be expressed absolutely in px, or relatively in %. If you don't declare the `height` attribute the image will resize accordingly.
-
-<img src="../assets/rodrigomuller-acdc.jpg" width="100px" align="right" style="margin-left:10px">
-Of course images can also be aligned to the right, just be sure the ration between the image size and the amount of text will always make the text wrap the image. This can be tricky at times, so to reach a good output layout you might do some trial and error.
-
-Also, please remember that if you are supporting PDF output, the resolution for the PDF is different so do some export tests to check it's not breaking the PDF layout.
-
-###### A list of images with description on the right
-<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="150px" align="left" style="margin-right:10px">
-You can achieve such a result with a little bit of HTML, but unfortunately you won't be able to use markdown syntax anymore :(
-</p>  
-
-
-<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="150px" align="left" style="margin-right:10px">
-When trying some _markdown_ syntax it **will** just be rendered as regular HTML text...
-</p>
-
-Please check the code snippet below to see the HTML used to render the layout above:
-```html
-<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="150px" align="left" style="margin-right:10px">
-You can achieve such a result with a little bit of HTML, but unfortunately you won't be able to use markdown syntax anymore :(
-</p>  
-
-
-<p style="overflow:hidden"><img src="../assets/rodrigomuller-acdc.jpg" width="150px" align="left" style="margin-right:10px">
-When trying some _markdown_ syntax it **will** just be rendered as regular HTML text...
-</p>
-```
-
-<img src="../assets/rodrigomuller-acdc.jpg" align="center" alt="center aligned images can have a caption">
 
 ---
 
