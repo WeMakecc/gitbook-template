@@ -172,6 +172,7 @@ The following markdown syntax
 ![](../assets/rodrigomuller-acdc.jpg)
 ```
 Would output a regular image
+
 ![](../assets/rodrigomuller-acdc.jpg)
 
 
@@ -180,6 +181,7 @@ The following markdown syntax
 ![this is an image caption](../assets/rodrigomuller-acdc.jpg)
 ```
 Would instead output a regular image with a caption
+
 ![this is an image caption](../assets/rodrigomuller-acdc.jpg)
 
 
