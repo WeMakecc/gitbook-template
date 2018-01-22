@@ -166,6 +166,23 @@ this is code included from the `timer.ino` file in the `code` folder:
 
 ---
 
+# Double column layout
+It is possible to have text on two columns with the following syntax:
+```
+{% grid %}
+  {% col1 %}This is the content of the first column.
+  {% col2 %}This is the content of the second column, YAAAAYYY!!!
+{% endgrid %}
+```
+
+**_IMPORTANT_** It is very important to note:
+- only two columns are supported
+- columns need to be called `col1` and `col2`
+- content from column one won't automagically overflow in column two, so the author needs to decide when to end column one and when to start column two
+- markdown syntax is not supported within columns
+
+---
+
 # Images {#images}
 The following markdown syntax
 ```markdown
@@ -218,8 +235,10 @@ If you instead DO NEED text to wrap around the image, then this text needs to li
 ```
 {% image %}
   {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
-  {% image_text %}Lorem **ipsum** dolor sit amet, consectetur adipiscing elit. Nulla justo lacus, mollis id orci eget, dignissim tincidunt mauris. Etiam eu dui nunc. Vestibulum pharetra sapien et lacus consectetur congue. Sed laoreet lectus arcu, sit amet rutrum mauris ornare et. In scelerisque varius enim, sit amet sollicitudin ipsum sodales ac. Mauris at lorem eget elit laoreet gravida eu at lorem. Sed scelerisque sagittis augue, in tempor risus consequat in. Integer mattis sem ac justo scelerisque, eu iaculis nulla porttitor. Morbi elementum nec felis ut congue. Maecenas faucibus odio id placerat pulvinar. Integer quis mauris viverra, sollicitudin odio non, tincidunt eros. Nunc cursus leo sem, sit amet venenatis diam elementum quis. Mauris dapibus varius suscipit.
+  {% image_text %}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla justo lacus, mollis id orci eget, dignissim tincidunt mauris. Etiam eu dui nunc. Vestibulum pharetra sapien et lacus consectetur congue. Sed laoreet lectus arcu, sit amet rutrum mauris ornare et. In scelerisque varius enim, sit amet sollicitudin ipsum sodales ac. Mauris at lorem eget elit laoreet gravida eu at lorem. Sed scelerisque sagittis augue, in tempor risus consequat in. Integer mattis sem ac justo scelerisque, eu iaculis nulla porttitor. Morbi elementum nec felis ut congue. Maecenas faucibus odio id placerat pulvinar. Integer quis mauris viverra, sollicitudin odio non, tincidunt eros. Nunc cursus leo sem, sit amet venenatis diam elementum quis. Mauris dapibus varius suscipit.
 {% endimage %}
+
+**_IMPORTANT_** regular markdown tags won't affect text that wraps an image!
 
 
 ---
