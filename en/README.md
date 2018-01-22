@@ -18,7 +18,7 @@ This file file serves as your book's preface, a great place to describe your boo
     * printlinks for printed version ([link](https://plugins.gitbook.com/plugin/printlinks)) [not working]
     * ~~image captions~~ ([link](https://plugins.gitbook.com/plugin/image-captions-extended))
     * ~~page footer~~ ([link](https://plugins.gitbook.com/plugin/page-footer)) [tested, not working properly]
-* glossary
+* ~~glossary~~
 * layout elements
   * ~~titles~~
   * ~~links \(with footnotes\)~~
