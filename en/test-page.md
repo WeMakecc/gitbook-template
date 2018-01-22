@@ -191,6 +191,10 @@ For instance, to align an image to the left you can use the following syntax
   {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
 {% endimage %}
 ```
+{% image %}
+  {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
+{% endimage %}
+
 
 
 {% image %}
