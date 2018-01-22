@@ -364,3 +364,5 @@ Definition for another term
 ```
 
 All the terms present in the glossary will be highlighted throughout the book.
+
+**_IMPORTANT_** Please note that the glossary won't be generated in the PDF export
