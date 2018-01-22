@@ -320,6 +320,6 @@ Correct syntax:
 
 
 {% grid %}
-  {% col %}First
-  {% col %}Second
+  {% col %}This is the first column, and got a lot of awesome content
+  {% col %}This is the second column, and also got a lot of awesome content
 {% endgrid %}
