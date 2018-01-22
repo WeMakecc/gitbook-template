@@ -39,3 +39,11 @@ This file file serves as your book's preface, a great place to describe your boo
   * BOM
 * ~~book cover~~
 
+
+
+
+fixes:
+* anchor link no underline on hover
+* add wemake font
+* fix style for glossary-term class
+* fix style for image captions
