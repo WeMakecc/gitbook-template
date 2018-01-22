@@ -308,7 +308,7 @@ Correct syntax:
 ---
 
 {% test %}
-  {% image_url %}../assets/rodrigomuller-acdc.jpg
+  {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
   {% image_text %}lalalala lalalala lalalala
 {% endtest %}
 
