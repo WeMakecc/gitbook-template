@@ -167,6 +167,31 @@ this is code included from the `timer.ino` file in the `code` folder:
 ---
 
 # Images {#images}
+The following markdown syntax
+```markdown
+![](../assets/rodrigomuller-acdc.jpg)
+```
+Would output a regular image
+![](../assets/rodrigomuller-acdc.jpg)
+
+
+The following markdown syntax
+```markdown
+![this is an image caption](../assets/rodrigomuller-acdc.jpg)
+```
+Would instead output a regular image with a caption
+![this is an image caption](../assets/rodrigomuller-acdc.jpg)
+
+
+
+
+
+{% image %}
+  {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
+  {% image_text %}here is a lot of text to see what happens after the text reaches the image height lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala Lorem ipsum dolor amet cronut distillery meggings gluten-free, microdosing meh raw denim mustache master cleanse vice chambray woke fam. Tilde williamsburg enamel pin street art vice sriracha kitsch franzen. Fanny pack beard normcore church-key messenger bag copper mug disrupt cornhole, vape prism ramps wolf umami. Viral four dollar toast kinfolk, butcher knausgaard you probably haven't heard of them vaporware VHS locavore seitan offal chillwave. Post-ironic celiac succulents, thundercats tousled shoreditch subway tile disrupt hammock occupy lo-fi vaporware.
+{% endimage %}
+
+
 
 <img src="../assets/rodrigomuller-acdc.jpg" alt="caption text" width="50%" align="left" style="margin-right:10px">
 You can have images aligned to the left with a tiny bit of HTML
@@ -307,10 +332,7 @@ Correct syntax:
 
 ---
 
-{% image %}
-  {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
-  {% image_text %}here is a lot of text to see what happens after the text reaches the image height lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala Lorem ipsum dolor amet cronut distillery meggings gluten-free, microdosing meh raw denim mustache master cleanse vice chambray woke fam. Tilde williamsburg enamel pin street art vice sriracha kitsch franzen. Fanny pack beard normcore church-key messenger bag copper mug disrupt cornhole, vape prism ramps wolf umami. Viral four dollar toast kinfolk, butcher knausgaard you probably haven't heard of them vaporware VHS locavore seitan offal chillwave. Post-ironic celiac succulents, thundercats tousled shoreditch subway tile disrupt hammock occupy lo-fi vaporware.
-{% endimage %}
+
 
 ---
 
