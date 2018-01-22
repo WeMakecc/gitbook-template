@@ -169,20 +169,23 @@ this is code included from the `timer.ino` file in the `code` folder:
 # Images {#images}
 The following markdown syntax
 ```markdown
-![](../assets/rodrigomuller-acdc.jpg)
+![this is an image caption](../assets/rodrigomuller-acdc.jpg)
 ```
-Would output a regular image
+Would output a regular image, center aligned, with a caption
+
+![this is an image caption](../assets/rodrigomuller-acdc.jpg)
+
+
+If a caption is not needed, you can input a white space between the brackets
+```markdown
+![ ](../assets/rodrigomuller-acdc.jpg)
+```
+This syntax would output a regular image without caption
 
 ![ ](../assets/rodrigomuller-acdc.jpg)
 
 
-The following markdown syntax
-```markdown
-![this is an image caption](../assets/rodrigomuller-acdc.jpg)
-```
-Would instead output a regular image with a caption
 
-![this is an image caption](../assets/rodrigomuller-acdc.jpg)
 
 
 The `layout-tags` plugin would offer solutions to align images.
