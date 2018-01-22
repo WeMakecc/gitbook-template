@@ -310,7 +310,7 @@ Correct syntax:
 {% image %}
   {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
   {% image_text %}here is a lot of text to see what happens after the text reaches the image height lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala
-{% endtest %}
+{% endimage %}
 
 ---
 
