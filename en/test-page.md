@@ -183,7 +183,14 @@ Would instead output a regular image with a caption
 ![this is an image caption](../assets/rodrigomuller-acdc.jpg)
 
 
+The `layout-tags` plugin would offer solutions to align images.
 
+For instance, to align an image to the left you can use the following syntax
+```
+{% image %}
+  {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
+{% endimage %}
+```
 
 
 {% image %}
