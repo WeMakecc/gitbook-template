@@ -307,14 +307,10 @@ Correct syntax:
 
 ---
 
-{% raw %}
-
-{% image "test image", "200px", "left", "margin-right:10px" %}
-    {% image_url %}../assets/rodrigomuller-acdc.jpg
-    {% image_text %}lalalala lalalala lalalala
-{% endimage %}
-
-{% endraw %}
+{% test %}
+  {% image_url %}../assets/rodrigomuller-acdc.jpg
+  {% image_text %}lalalala lalalala lalalala
+{% endtest %}
 
 ---
 
