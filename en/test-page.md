@@ -307,17 +307,19 @@ Correct syntax:
 
 ---
 
+{% raw %}
+
 {% image "test image", "200px", "left", "margin-right:10px" %}
     {% image_url %}../assets/rodrigomuller-acdc.jpg
     {% image_text %}lalalala lalalala lalalala
 {% endimage %}
 
+{% endraw %}
 
 ---
 
 
 {% grid %}
-  {% col 1 %}First
-  {% col 2 %}Second
-  {% col 3 %}Third
+  {% col %}First
+  {% col %}Second
 {% endgrid %}
