@@ -201,11 +201,24 @@ For instance, to align an image to the left you can use the following syntax
   {% image_text %}
 {% endimage %}
 
+**_IMPORTANT_** It is mandatory to always define all the attributes of the `image_url` tag, being in order of appearance:
+- alternative text `alt=""`
+- width of the image `width=""`
+- alignment of the image `align=""`
+- style attributes `style=""`
 
+Also, it is mandatory to always have the `image-text` tag, you can leave it empty if you don't need text to wrap around the image.
 
+If you do need text to wrap around the image, then this text needs to leave right after the `image_text` tag, see example:
+```
 {% image %}
   {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
-  {% image_text %}here is a lot of text to see what happens after the text reaches the image height lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala Lorem ipsum dolor amet cronut distillery meggings gluten-free, microdosing meh raw denim mustache master cleanse vice chambray woke fam. Tilde williamsburg enamel pin street art vice sriracha kitsch franzen. Fanny pack beard normcore church-key messenger bag copper mug disrupt cornhole, vape prism ramps wolf umami. Viral four dollar toast kinfolk, butcher knausgaard you probably haven't heard of them vaporware VHS locavore seitan offal chillwave. Post-ironic celiac succulents, thundercats tousled shoreditch subway tile disrupt hammock occupy lo-fi vaporware.
+  {% image_text %}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla justo lacus, mollis id orci eget, dignissim tincidunt mauris. Etiam eu dui nunc. Vestibulum pharetra sapien et lacus consectetur congue. Sed laoreet lectus arcu, sit amet rutrum mauris ornare et. In scelerisque varius enim, sit amet sollicitudin ipsum sodales ac. Mauris at lorem eget elit laoreet gravida eu at lorem. Sed scelerisque sagittis augue, in tempor risus consequat in. Integer mattis sem ac justo scelerisque, eu iaculis nulla porttitor. Morbi elementum nec felis ut congue. Maecenas faucibus odio id placerat pulvinar. Integer quis mauris viverra, sollicitudin odio non, tincidunt eros. Nunc cursus leo sem, sit amet venenatis diam elementum quis. Mauris dapibus varius suscipit.
+{% endimage %}
+```
+{% image %}
+  {% image_url "test image", "200px", "left", "margin-right:10px" %}../assets/rodrigomuller-acdc.jpg
+  {% image_text %}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla justo lacus, mollis id orci eget, dignissim tincidunt mauris. Etiam eu dui nunc. Vestibulum pharetra sapien et lacus consectetur congue. Sed laoreet lectus arcu, sit amet rutrum mauris ornare et. In scelerisque varius enim, sit amet sollicitudin ipsum sodales ac. Mauris at lorem eget elit laoreet gravida eu at lorem. Sed scelerisque sagittis augue, in tempor risus consequat in. Integer mattis sem ac justo scelerisque, eu iaculis nulla porttitor. Morbi elementum nec felis ut congue. Maecenas faucibus odio id placerat pulvinar. Integer quis mauris viverra, sollicitudin odio non, tincidunt eros. Nunc cursus leo sem, sit amet venenatis diam elementum quis. Mauris dapibus varius suscipit.
 {% endimage %}
 
 
