@@ -309,7 +309,7 @@ Correct syntax:
 
 {% image "test image", "200px", "left", "margin-right:10px" %}
     {% image_url %}../assets/rodrigomuller-acdc.jpg
-    {% image_text %}lalalalal lalalala lalalala
+    {% image_text %}lalalalala lalalala lalalala
 {% endimage %}
 
 
