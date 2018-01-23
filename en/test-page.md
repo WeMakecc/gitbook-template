@@ -216,7 +216,7 @@ This is the content for the second column
 
 See result:
 <div style="float: left; width: 48%; margin-right: 2%;">
-This is the content for the first column. It's **possible** to use _**regular**_ `markdown` tags!!! Sed consectetur tincidunt felis eget eleifend. Morbi quis magna at urna imperdiet lobortis.
+This is the content for the first column. Sed consectetur tincidunt felis eget eleifend. Morbi quis magna at urna imperdiet lobortis.
 </div>
 <div style="float: left; width: 48%; margin-left: 2%;">
 This is the content for the second column. Proin blandit malesuada mi, sollicitudin dictum tellus placerat ac. Donec sit amet faucibus lorem.
