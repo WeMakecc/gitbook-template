@@ -201,6 +201,28 @@ See result:
 - content from column one won't automagically overflow in column two, so the author needs to decide when to end column one and when to start column two
 - markdown syntax is not supported within columns
 
+
+> It's possible to achieve the same layout without using the `layout-tags` with a little bit of HTML
+```
+<div style="float: left; width: 48%; margin-right: 2%;">
+This is the content for the first column
+</div>
+<div style="float: left; width: 48%; margin-left: 2%;">
+This is the content for the second column
+</div>
+<div style="clear: both"></div>
+```
+
+<div style="float: left; width: 48%; margin-right: 2%;">
+This is the content for the first column. It's **possible** to use _**regular**_ `markdown` tags!!! Sed consectetur tincidunt felis eget eleifend. Morbi quis magna at urna imperdiet lobortis.
+</div>
+<div style="float: left; width: 48%; margin-left: 2%;">
+This is the content for the second column. Proin blandit malesuada mi, sollicitudin dictum tellus placerat ac. Donec sit amet faucibus lorem.
+</div>
+<div style="clear: both"></div>
+
+
+
 ---
 
 # Images {#images}
