@@ -180,6 +180,7 @@ Special blockquotes are available to highlight pieces of text throughout the boo
 > This feature requires the [`layout-tags`](https://github.com/WeMakecc/gitbook-plugin-layout-tags) plugin
 
 It is possible to have text on two columns with the following syntax:
+
 ```
 {% grid %}
   {% col1 %}This is the content of the first column.
