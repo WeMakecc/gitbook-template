@@ -48,3 +48,4 @@ fixes:
 * style headings
 * fix style for glossary-term class
 * fix style for image captions
+* make standard blockquote a grey box

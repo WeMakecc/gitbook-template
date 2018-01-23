@@ -10,6 +10,8 @@
 
 ###### Heading H6
 
+> Headings make use of the [`anchorjs`](https://plugins.gitbook.com/plugin/anchorjs) plugin
+
 ---
 
 # This an H1 Heading with a "\#title" id {#title}
@@ -53,6 +55,7 @@ _**Bold and italic text**_
 ---
 
 # Tasks list {#tasks}
+> This feature requires the [`to-do`](https://plugins.gitbook.com/plugin/checkbox) plugin
 
 - [ ] task 1
 - [x] task 2
@@ -83,6 +86,7 @@ footnote [link](/www.google.com)[^2]
 ---
 
 # Code {#code}
+> This feature makes use of the [`copy-code-button`](https://plugins.gitbook.com/plugin/copy-code-button) plugin, but it is not a necessary plugin
 
 ```
 this is a
@@ -99,6 +103,9 @@ code block
 
 this is inline `code` instead
 
+### Include code from an external file
+> This feature requires the [`include-codeblock`](https://plugins.gitbook.com/plugin/include-codeblock) and [`ace`](https://plugins.gitbook.com/plugin/ace) plugins
+
 this is code included from the `timer.ino` file in the `code` folder:
 [include](../code/timer.ino)
 
@@ -114,6 +121,7 @@ this is code included from the `timer.ino` file in the `code` folder:
 ---
 
 # Special blockquotes {#specialblockquote}
+> This feature requires the [`styled-blockquotes`](https://plugins.gitbook.com/plugin/styled-blockquotes) plugin
 
 > **info**
 > This is an info blockquote with icon (the icon will not render in the PDF...)
@@ -167,6 +175,8 @@ this is code included from the `timer.ino` file in the `code` folder:
 ---
 
 # Double column layout
+> This feature requires the [`layout-tags`](https://github.com/WeMakecc/gitbook-plugin-layout-tags) plugin
+
 It is possible to have text on two columns with the following syntax:
 ```
 {% grid %}
@@ -194,25 +204,30 @@ See result:
 # Images {#images}
 The following markdown syntax
 ```markdown
-![this is an image caption](../assets/rodrigomuller-acdc.jpg)
+![ ](../assets/rodrigomuller-acdc.jpg)
 ```
-Would output a regular image, center aligned, with a caption
 
-![this is an image caption](../assets/rodrigomuller-acdc.jpg)
+Would output a regular image, center aligned.
+
+![ ](../assets/rodrigomuller-acdc.jpg)
 
 
-If a caption is not needed, you can input a white space between the brackets
+
+If a caption is needed, you can input some text between the brackets
+> This feature requires the [`image-captions`](https://plugins.gitbook.com/plugin/image-captions-extended) plugin
+
 ```markdown
-![ ](../assets/rodrigomuller-acdc.jpg)
+![this is an image caption](../assets/rodrigomuller-acdc.jpg)
 ```
-This syntax would then output a regular image without caption
 
-![ ](../assets/rodrigomuller-acdc.jpg)
+This syntax would then output a regular image with a caption
+
+![this is an image caption](../assets/rodrigomuller-acdc.jpg)
+
 
 
 ##### Aligning images
-
-The `layout-tags` plugin would offer solutions to align images.
+> This feature requires the [`layout-tags`](https://github.com/WeMakecc/gitbook-plugin-layout-tags) plugin
 
 For instance, to align an image to the left you can use the following syntax
 ```
@@ -252,6 +267,7 @@ If you instead DO NEED text to wrap around the image, then this text needs to li
 ---
 
 # Video {#video}
+> This feature requires the [`noembed`](https://plugins.gitbook.com/plugin/noembed) plugin
 
 You can embed videos in a gitbook. They will be displayed as an interactive element in website view and as a link in PDF view.
 
@@ -265,6 +281,7 @@ From Vimeo:
 ---
 
 # PDF embed {#pdf}
+> This feature requires the [`embed-pdf`](https://plugins.gitbook.com/plugin/embed-pdf) plugin
 
 It is also possible to embed PDF files in the gitbook.
 [Please note that, unfortunately, the generated links are broken in the PDF downloaded from gitbook.com]
@@ -279,6 +296,9 @@ It is possible to add a cover for the PDF and Ebook versions of the book.
 There are two possible ways of adding a cover.
 
 **Auto cover plugin**
+> This feature requires the [`autocover`](https://plugins.gitbook.com/plugin/autocover) plugin
+
+
 Open the `book.json` file in the root directory of your book and:
 * edit the `"title": "My Book"` value with your book title
 * edit the `"author": "Author"` value with your book author details
