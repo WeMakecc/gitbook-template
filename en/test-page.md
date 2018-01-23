@@ -292,8 +292,16 @@ If you instead DO NEED text to wrap around the image, then this text needs to li
 > It's possible to avoid using the `layout-tags` plugin and align images using a bit of HTML:
 ```html
 <p style="overflow:hidden">
+  <img src="../assets/rodrigomuller-acdc.jpg" alt="this is a nice image" width="200px" align="left" style="margin-right:10px">
+  Here is some text that will wrap around the image.
 </p>
 ```
+
+<p style="overflow:hidden">
+  <img src="../assets/rodrigomuller-acdc.jpg" alt="this is a nice image" width="200px" align="left" style="margin-right:10px">
+  Here is some text that will wrap around the image. And _you_ **can** **_have_** `markdown` too!
+</p>
+
 
 
 ---
