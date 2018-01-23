@@ -215,6 +215,14 @@ input {
   border-radius: .3em;
 }
 
+
+/**************************/
+/****** IMAGE CAPTION *****/
+/**************************/
+figcaption {
+  color: #6a6a6a;
+}
+
 .section.toc .page {
     display: none;
 }
