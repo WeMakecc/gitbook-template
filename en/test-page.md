@@ -181,10 +181,7 @@ Special blockquotes are available to highlight pieces of text throughout the boo
 
 It is possible to have text on two columns with the following syntax:
 ```
-{% grid %}
-  {% col1 %}This is the content of the first column.
-  {% col2 %}This is the content of the second column, YAAAAYYY!!!
-{% endgrid %}
+{% grid %}{% endgrid %}
 ```
 
 See result:
