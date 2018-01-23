@@ -155,7 +155,8 @@ body {
   text-decoration: none!important;
 }
 *:hover > .anchorjs-link {
-  margin-left: -1.125em !important;
+  /*margin-left: -1.125em !important;*/
+  margin-top: -.05em;
   text-decoration: none!important;
   transition: color .25s linear;
 }
