@@ -179,6 +179,15 @@ body {
   margin-bottom: 0;
 }
 
+
+/************************/
+/**** GLOSSARY TERMS ****/
+/************************/
+.markdown-section .glossary-term {
+  text-decoration: none;
+  color: #444;
+}
+
 .tips {
   color:red;
 }
