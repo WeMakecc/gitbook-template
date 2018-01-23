@@ -1,4 +1,9 @@
 /* CSS for website */
+
+
+/********************/
+/**** FONT STUFF ****/
+/********************/
 @font-face {
     font-family: Montserrat;
     src: url(../../assets/fonts/Montserrat-Regular.ttf);
@@ -89,9 +94,23 @@
   font-size: 16px;
 }
 
+
+/***********************/
+/**** GENERAL STYLE ****/
+/***********************/
 body {
   color: #000;
 }
+
+
+/******************/
+/**** HEADINGS ****/
+/******************/
+h1 {
+  font-size: 3em;
+  color: rgb(255, 0, 125);
+}
+
 
 #title{
   padding-bottom: .2rem;
