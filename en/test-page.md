@@ -203,7 +203,7 @@ See result:
 
 
 > It's possible to achieve the same layout without using the `layout-tags` with a little bit of HTML:
-```
+```html
 <div style="float: left; width: 48%; margin-right: 2%;">
 This is the content for the first column
 </div>
