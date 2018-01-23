@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [test page](test-page.md)
+* [BOM](BOM.md)
 
 ## CHAPTER 1
 
