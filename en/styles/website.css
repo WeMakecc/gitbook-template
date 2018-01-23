@@ -188,6 +188,14 @@ body {
   color: #727272;
 }
 
+
+/*******************/
+/**** TASK LIST ****/
+/*******************/
+input {
+  margin-right: 7px;
+}
+
 .tips {
   color:red;
 }
