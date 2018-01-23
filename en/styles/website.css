@@ -187,6 +187,9 @@ body {
   text-decoration: none;
   color: #727272;
 }
+.markdown-section .glossary-term:hover {
+  text-decoration: none;
+}
 
 
 /*******************/
@@ -205,6 +208,12 @@ input {
 }
 
 
+/*******************/
+/****** ALERTS *****/
+/*******************/
+.alert {
+  border-radius: .3em;
+}
 
 .section.toc .page {
     display: none;
