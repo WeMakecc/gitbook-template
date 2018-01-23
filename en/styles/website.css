@@ -130,7 +130,6 @@ body {
 }
 
 
-
 /*******************/
 /**** TITLE IDs ****/
 /*******************/
@@ -138,6 +137,29 @@ body {
 #title{
   /* border-bottom: 1px solid #eaecef; */
 }
+
+
+/**********************/
+/**** ANCHOR LINKS ****/
+/**********************/
+.anchorjs-link {
+  transition: all .25s linear;
+  /*color: #FF5231!important;*/
+  color: #000;
+  text-decoration: none!important;
+}
+.anchorjs-link:hover {
+  /*color: #4183c4!important;*/
+  color: rgb(255, 0, 125);
+  text-decoration: none!important;
+}
+*:hover > .anchorjs-link {
+  margin-left: -1.125em !important;
+  text-decoration: none!important;
+  transition: color .25s linear;
+}
+
+
 
 .tips {
   color:red;
@@ -147,20 +169,7 @@ body {
   text-decoration: none!important;
 }
 
-.anchorjs-link {
-  transition: all .25s linear;
-  color: #FF5231!important;
-  text-decoration: none!important;
-}
-.anchorjs-link:hover {
-  color: #4183c4!important;
-  text-decoration: none!important;
-}
-*:hover > .anchorjs-link {
-  margin-left: -1.125em !important;
-  text-decoration: none!important;
-  transition: color .25s linear;
-}
+
 
 .section.toc .page {
     display: none;
