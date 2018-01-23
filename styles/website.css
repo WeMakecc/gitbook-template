@@ -13,6 +13,10 @@
   color:red;
 }
 
+.markdown-section a:active, .markdown-section a:focus, .markdown-section a:hover {
+  text-decoration: none!important;
+}
+
 .anchorjs-link {
   transition: all .25s linear;
   color: #FF5231!important;
