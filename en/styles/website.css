@@ -196,12 +196,12 @@ input {
   margin-right: 7px;
 }
 
-.tips {
-  color:red;
-}
 
+/*******************/
+/****** LINKS ******/
+/*******************/
 .markdown-section a:active, .markdown-section a:focus, .markdown-section a:hover {
-  text-decoration: none!important;
+  /*text-decoration: none!important;*/
 }
 
 
