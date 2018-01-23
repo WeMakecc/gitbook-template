@@ -252,7 +252,7 @@ This syntax would then output a regular image with a caption
 
 
 
-##### Aligning images
+#### Aligning images
 > This feature requires the [`layout-tags`](https://github.com/WeMakecc/gitbook-plugin-layout-tags) plugin
 
 For instance, to align an image to the left you can use the following syntax
@@ -290,7 +290,7 @@ If you instead DO NEED text to wrap around the image, then this text needs to li
 **_IMPORTANT_** regular markdown tags won't affect text that wraps an image!
 
 
-> It's possible to avoid using the `layout-tags` plugin and align images using a bit of HTML:
+> It's also possible to avoid using the `layout-tags` plugin and align images using a bit of HTML:
 ```html
 <p style="overflow:hidden">
   <img src="../assets/rodrigomuller-acdc.jpg" alt="this is a nice image" width="200px" align="left" style="margin-right:10px">
@@ -300,7 +300,7 @@ If you instead DO NEED text to wrap around the image, then this text needs to li
 
 <p style="overflow:hidden">
   <img src="../assets/rodrigomuller-acdc.jpg" alt="this is a nice image" width="200px" align="left" style="margin-right:10px">
-  Here is some text that will wrap around the image. And _you_ **can** **_have_** `markdown` too!
+  Here is some text that will wrap around the image.
 </p>
 
 
