@@ -131,11 +131,12 @@ body {
 
 
 
-
-
+/*******************/
+/**** TITLE IDs ****/
+/*******************/
+/* title IDs make it possible to style specific headings independently */
 #title{
-  padding-bottom: .2rem;
-  border-bottom: 1px solid #eaecef;
+  /* border-bottom: 1px solid #eaecef; */
 }
 
 .tips {
