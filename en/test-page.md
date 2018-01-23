@@ -123,6 +123,7 @@ this is code included from the `timer.ino` file in the `code` folder:
 # Special blockquotes {#specialblockquote}
 > This feature requires the [`styled-blockquotes`](https://plugins.gitbook.com/plugin/styled-blockquotes) plugin
 
+
 > **info**
 > This is an info blockquote with icon (the icon will not render in the PDF...)
 
