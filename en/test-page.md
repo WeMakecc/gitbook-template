@@ -202,7 +202,7 @@ See result:
 - markdown syntax is not supported within columns
 
 
-> It's possible to achieve the same layout without using the `layout-tags` with a little bit of HTML
+> It's possible to achieve the same layout without using the `layout-tags` with a little bit of HTML:
 ```
 <div style="float: left; width: 48%; margin-right: 2%;">
 This is the content for the first column
@@ -213,6 +213,7 @@ This is the content for the second column
 <div style="clear: both"></div>
 ```
 
+See result:
 <div style="float: left; width: 48%; margin-right: 2%;">
 This is the content for the first column. It's **possible** to use _**regular**_ `markdown` tags!!! Sed consectetur tincidunt felis eget eleifend. Morbi quis magna at urna imperdiet lobortis.
 </div>
@@ -286,6 +287,13 @@ If you instead DO NEED text to wrap around the image, then this text needs to li
 {% endimage %}
 
 **_IMPORTANT_** regular markdown tags won't affect text that wraps an image!
+
+
+> It's possible to avoid using the `layout-tags` plugin and align images using a bit of HTML:
+```html
+<p style="overflow:hidden">
+</p>
+```
 
 
 ---
