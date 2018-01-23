@@ -221,6 +221,7 @@ input {
 /**************************/
 figcaption {
   color: #6a6a6a;
+  font-size: .9em;
 }
 
 .section.toc .page {
