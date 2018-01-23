@@ -183,8 +183,8 @@ It is possible to have text on two columns with the following syntax:
 ```
 {% raw %}
 {% grid %}
-{% col1 %}a
-{% col2 %}b
+  {% col1 %}a
+  {% col2 %}b
 {% endgrid %}
 {% endraw %}
 ```
@@ -193,7 +193,7 @@ See result:
 
 {% grid %}
   {% col1 %}This is the content of the first column. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra ornare lectus, id maximus elit congue et. Sed consectetur tincidunt felis eget eleifend. Morbi quis magna at urna imperdiet lobortis. Curabitur rutrum, tellus aliquam condimentum rhoncus, tellus tellus dapibus enim, ut malesuada leo libero vitae erat.
-  {% col2 %}This is the *content* of the second column, YAAAAYYY!!! Proin blandit malesuada mi, sollicitudin dictum tellus placerat ac. Donec sit amet faucibus lorem. Vestibulum pulvinar diam mauris, nec blandit leo gravida quis. Praesent et odio nec enim egestas dictum.
+  {% col2 %}This is the content of the second column, YAAAAYYY!!! Proin blandit malesuada mi, sollicitudin dictum tellus placerat ac. Donec sit amet faucibus lorem. Vestibulum pulvinar diam mauris, nec blandit leo gravida quis. Praesent et odio nec enim egestas dictum.
 {% endgrid %}
 
 
