@@ -4,7 +4,7 @@ This is a template for a BOM list.
 
 {% bom %}
     {% bom_image "potentiometer", "70px", "left", "margin-right:10px" %}../assets/pot.jpg
-    {% bom_description %}10k Potentiometers
+    {% bom_description %}10k Potentiometer
     {% bom_quantity %}5x
 {% endbom %}
 
@@ -21,6 +21,14 @@ This is a template for a BOM list.
     {% image_url "capacitor", "70px", "left", "margin-right:10px" %}../assets/capacitor.jpg
     {% image_text %}2x 4700uF Capacitors
 {% endimage %}
+
+---
+
+|-|-|-|
+|Item|Description|Quantity|
+|![potentiometer](../assets/pot-small.jpg)|10k Potentiometer|x 5|
+|![resistor](../assets/resistor-small.jpg)|100ohm Resistor|x 10|
+|-|-|-|
 
 
 
