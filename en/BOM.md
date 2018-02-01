@@ -25,11 +25,8 @@ This is a template for a BOM list.
 ---
 
 |Item|Description|Quantity|
-|-|-|-|
 |![potentiometer](../assets/pot-small.jpg)|10k Potentiometer|x 5|
-|-|-|-|
 |![resistor](../assets/resistor-small.jpg)|100ohm Resistor|x 10|
-|-|-|-|
 
 
 
