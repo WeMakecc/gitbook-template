@@ -2,10 +2,11 @@
 
 This is a template for a BOM list.
 
-{% image %}
-    {% image_url "potentiometer", "70px", "left", "margin-right:10px" %}../assets/pot.jpg
-    {% image_text %}5x 10k Potentiometers
-{% endimage %}
+{% bom %}
+    {% bom_image "potentiometer", "70px", "left", "margin-right:10px" %}../assets/pot.jpg
+    {% bom_description %}10k Potentiometers
+    {% bom_quantity %}5x
+{% endbom %}
 
 ---
 
