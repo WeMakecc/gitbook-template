@@ -80,6 +80,7 @@ permette di richiedere assistenza
 (suonando il campanello) tramite
 smartphone.
 </div>
+<div style="clear: both"></div>
 
 ---
 
