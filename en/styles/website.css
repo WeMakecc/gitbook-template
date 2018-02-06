@@ -187,6 +187,29 @@ body {
 
 
 /************************/
+/********* CODE *********/
+/************************/
+.markdown-section pre {
+    overflow: auto;
+    word-wrap: normal;
+    margin: 0;
+    padding: .85em 1em;
+    margin-bottom: 1.275em;
+    background: #ebfcfe;
+    border: 1px solid #caf9fd;
+    border-radius: .2em;
+}
+.ace {
+    border: 1px solid #caf9fd;
+    border-radius: .2em;
+}
+.ace-chrome .ace_gutter {
+    color: #334;
+    background: #f6fefe;
+}
+
+
+/************************/
 /**** GLOSSARY TERMS ****/
 /************************/
 .markdown-section .glossary-term {
@@ -218,7 +241,7 @@ input {
 /****** ALERTS *****/
 /*******************/
 .alert {
-  border-radius: .3em;
+  border-radius: .2em;
 }
 
 
@@ -244,3 +267,5 @@ p.copyright {
   overflow: hidden!important;
   overflow-y: scroll!important;
 }
+
+
