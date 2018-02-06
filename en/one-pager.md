@@ -11,8 +11,8 @@ Negozianti, cittadini e cittadine milanesi con **diverse abilità motorie**, con
 
 ---
 
-<div style="float: left; width: 48%; margin-right: 2%;">
-<h3>Il contesto</h3>
+{% grid %}
+  {% col1 %} <h3>Il contesto</h3>
 Dal 2015, ovvero dall'entrata in vigore
 dell’articolo 77 del regolamento edilizio
 del Comune di Milano, poco più del 10%
@@ -43,10 +43,7 @@ funzionamento poco efficace del sistema
 di rampa a chiamata.
 Per quel che concerne la procedura è
 stato rilevato un problema nel processo di
-</div>
-
-<div style="float: left; width: 48%; margin-left: 2%;">
-regolarizzazione che il commerciante
+{% col2 %}regolarizzazione che il commerciante
 deve seguire. E’ stato pertanto
 co-progettato un supporto passo passo
 che funge da guida nella compilazione
@@ -79,8 +76,7 @@ trova nei pressi di un negozio accessibile e
 permette di richiedere assistenza
 (suonando il campanello) tramite
 smartphone.
-</div>
-<div style="clear: both"></div>
+{% endgrid %}
 
 ---
 
