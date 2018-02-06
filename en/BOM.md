@@ -13,23 +13,17 @@ It is possible to have a BOM list layout with the following markdown syntax:
     {% bom_quantity %}X 5
 {% endbom %}
 
----
-
 {% bom %}
     {% bom_image "resistor", "70px", "left", "margin-right:10px" %}../assets/resistor.jpg
     {% bom_description %}100ohm Resistors
     {% bom_quantity %}X 10
 {% endbom %}
 
----
-
 {% bom %}
     {% bom_image "capacitor", "70px", "left", "margin-right:10px" %}../assets/capacitor.jpg
     {% bom_description %}4700uF Capacitors
     {% bom_quantity %}X 2
 {% endbom %}
-
----
 ```
 
 See result:
@@ -40,23 +34,17 @@ See result:
     {% bom_quantity %}X 5
 {% endbom %}
 
----
-
 {% bom %}
     {% bom_image "resistor", "70px", "left", "margin-right:10px" %}../assets/resistor.jpg
     {% bom_description %}100ohm Resistors
     {% bom_quantity %}X 10
 {% endbom %}
 
----
-
 {% bom %}
     {% bom_image "capacitor", "70px", "left", "margin-right:10px" %}../assets/capacitor.jpg
     {% bom_description %}4700uF Capacitors
     {% bom_quantity %}X 2
 {% endbom %}
-
----
 
 
 **_IMPORTANT_** It is very important to note:
