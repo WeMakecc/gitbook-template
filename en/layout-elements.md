@@ -1,4 +1,12 @@
-# Heading H1
+# Layout elements {#layout_elements}
+
+In this page you can find all the layout elements that can be used in the playbook, they have examples you can copy/paste in your text
+
+* []()
+
+---
+
+# Heading H1 {#headings}
 
 ## Heading H2
 
