@@ -71,7 +71,7 @@ See result:
 
 **_IMPORTANT_** It is very important to note:
 - don't write any text in the alternative text section of the image as it would break the layout! (eg. please avoid the following markdown `![potentiometer](../assets/pot-small.jpg)`)
-
+- please always try to link images with transparent background since the alternate columns have a background color 
 
 
 
