@@ -166,14 +166,17 @@ body {
 /**** BLOCKQUOTE ****/
 /********************/
 .markdown-section blockquote {
-    margin: 0;
+    /* color: #6a6a6a; */
+    /* background-color: #efefef; */
+    /* border: 1px solid #e5e5e5; */
+    margin: 2em 0;
     margin-bottom: .85em;
-    padding: 15px;
-    color: #6a6a6a;
+    padding: 20px 30px;
+    color: #334;
     /* border-left: 4px solid #e5e5e5; */
-    background-color: #efefef;
+    background-color: #fafafa;
     border: 1px solid #e5e5e5;
-    border-radius: .3em;
+    border-radius: .2em;
 }
 .markdown-section blockquote > p {
   margin-bottom: 0;
