@@ -313,10 +313,14 @@ If you instead DO NEED text to wrap around the image, then this text needs to li
 
 You can embed videos in a gitbook. They will be displayed as an interactive element in website view and as a link in PDF view.
 
-Videos can be embedded from youtube:
+Videos can be embedded from youtube with the following syntax:
+```markdown
+{{ 'https://www.youtube.com/watch?v=U0sZulbldWg' | video }}
+```
+
 {{ 'https://www.youtube.com/watch?v=U0sZulbldWg' | video }}
 
-From Vimeo:
+From Vimeo as well with the same syntax above:
 {{ 'https://vimeo.com/174632471' | video }}
 
 
