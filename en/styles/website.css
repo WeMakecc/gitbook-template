@@ -204,8 +204,8 @@ body {
     border-radius: .2em;
 }
 .ace-chrome .ace_gutter {
-    color: #334;
-    background: #f6fefe;
+    color: #334!important;
+    background: #f6fefe!important;
 }
 
 
