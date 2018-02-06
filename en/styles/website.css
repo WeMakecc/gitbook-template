@@ -205,9 +205,9 @@ body {
 }
 .ace-chrome .ace_gutter {
     color: #334!important;
-    background: #f6fefe!important;
+    background: #caf9fd!important;
 }
-.ace-chrome .ace-content {
+.ace-content {
     background-color: #ebfcfe!important;
 }
 
