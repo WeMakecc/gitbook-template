@@ -11,7 +11,8 @@ Negozianti, cittadini e cittadine milanesi con **diverse abilità motorie**, con
 
 ---
 
-### Il contesto
+<div style="float: left; width: 48%; margin-right: 2%;">
+<h3>Il contesto</h3>
 Dal 2015, ovvero dall'entrata in vigore
 dell’articolo 77 del regolamento edilizio
 del Comune di Milano, poco più del 10%
@@ -31,7 +32,7 @@ l’accessibilità alle attività commerciali
 della zona alle persone con disabilità
 motoria.
 
-### Descrizione
+<h3>Descrizione</h3>
 Il progetto sperimentale è partito con
 degli incontri di co-progettazione che
 hanno permesso l’emersione di due
@@ -42,6 +43,9 @@ funzionamento poco efficace del sistema
 di rampa a chiamata.
 Per quel che concerne la procedura è
 stato rilevato un problema nel processo di
+</div>
+
+<div style="float: left; width: 48%; margin-left: 2%;">
 regolarizzazione che il commerciante
 deve seguire. E’ stato pertanto
 co-progettato un supporto passo passo
@@ -75,6 +79,7 @@ trova nei pressi di un negozio accessibile e
 permette di richiedere assistenza
 (suonando il campanello) tramite
 smartphone.
+</div>
 
 ---
 
