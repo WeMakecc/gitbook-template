@@ -1,6 +1,7 @@
 # BOM {#bom}
 
-This is a template for a BOM list.
+Here you can find a template for a BOM list.
+This could turn particularly helpful when creating a list of the materials needed to make a project.
 
 > The following layout requires the [`layout-tags`](https://github.com/WeMakecc/gitbook-plugin-layout-tags) plugin
 
@@ -8,7 +9,7 @@ It is possible to have BOM list layout with the following syntax:
 ```
 {% bom %}
     {% bom_image "potentiometer", "70px", "left", "margin-right:10px" %}../assets/pot.jpg
-    {% bom_description %}10k Potentiometer
+    {% bom_description %}[10k Potentiometer](https://www.sparkfun.com/products/9939)
     {% bom_quantity %}X 5
 {% endbom %}
 
@@ -62,6 +63,8 @@ See result:
 - all tags are needed to be filled and displayed, removing one of the tags would turn into a display error
 
 
+# BOM table {#bom_table}
+
 > It's possible to achieve the same layout without using the `layout-tags` with a table layout:
 ```markdown
 |Item|Description|Quantity|
@@ -71,6 +74,7 @@ See result:
 ```
 
 See result:
+
 |Item|Description|Quantity|
 |-|-|-|
 |![](../assets/pot-small.jpg)|10k Potentiometer|x 5|
