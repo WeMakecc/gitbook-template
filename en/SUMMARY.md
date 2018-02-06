@@ -1,9 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [test page](test-page.md)
+* [Layout elements](layout-elements.md)
 * [BOM](BOM.md)
 * [Step by step guide](step-by-step.md)
+* [One pager](one-pager.md)
 
 ## CHAPTER 1
 
