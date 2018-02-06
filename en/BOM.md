@@ -10,19 +10,19 @@ It is possible to have a BOM list layout with the following markdown syntax:
 {% bom %}
     {% bom_image "potentiometer", "70px", "left", "margin-right:10px" %}../assets/pot.jpg
     {% bom_description %}10k Potentiometer (<a href="https://www.sparkfun.com/products/9939">link</a>)
-    {% bom_quantity %}X 5
+    {% bom_quantity %}x 5
 {% endbom %}
 
 {% bom %}
     {% bom_image "resistor", "70px", "left", "margin-right:10px" %}../assets/resistor.jpg
     {% bom_description %}100ohm Resistors
-    {% bom_quantity %}X 10
+    {% bom_quantity %}x 10
 {% endbom %}
 
 {% bom %}
     {% bom_image "capacitor", "70px", "left", "margin-right:10px" %}../assets/capacitor.jpg
     {% bom_description %}4700uF Capacitors
-    {% bom_quantity %}X 2
+    {% bom_quantity %}x 2
 {% endbom %}
 ```
 
@@ -31,19 +31,19 @@ See result:
 {% bom %}
     {% bom_image "potentiometer", "70px", "left", "margin-right:10px" %}../assets/pot.jpg
     {% bom_description %}10k Potentiometer (<a href="https://www.sparkfun.com/products/9939">link</a>)
-    {% bom_quantity %}X 5
+    {% bom_quantity %}x 5
 {% endbom %}
 
 {% bom %}
     {% bom_image "resistor", "70px", "left", "margin-right:10px" %}../assets/resistor.jpg
     {% bom_description %}100ohm Resistors
-    {% bom_quantity %}X 10
+    {% bom_quantity %}x 10
 {% endbom %}
 
 {% bom %}
     {% bom_image "capacitor", "70px", "left", "margin-right:10px" %}../assets/capacitor.jpg
     {% bom_description %}4700uF Capacitors
-    {% bom_quantity %}X 2
+    {% bom_quantity %}x 2
 {% endbom %}
 
 
