@@ -207,6 +207,9 @@ body {
     color: #334!important;
     background: #f6fefe!important;
 }
+.ace-chrome .ace-content {
+    background-color: #ebfcfe!important;
+}
 
 
 /************************/
