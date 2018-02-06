@@ -15,5 +15,7 @@ The step 2 of the tutorial has an image on the left with wrapping text.
 {% endimage %}
 
 ## Step 3
-In the step 3 you will finally have a video of the working device
+In the step 3 you will finally have a video of the working device.
+
+{{ 'https://www.youtube.com/watch?v=WLLiiyWKxs8' | video }}
 
