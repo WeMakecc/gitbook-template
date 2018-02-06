@@ -5,7 +5,7 @@ This could turn particularly helpful when creating a list of the materials neede
 
 > The following layout requires the [`layout-tags`](https://github.com/WeMakecc/gitbook-plugin-layout-tags) plugin
 
-It is possible to have BOM list layout with the following syntax:
+It is possible to have a BOM list layout with the following markdown syntax:
 ```
 {% bom %}
     {% bom_image "potentiometer", "70px", "left", "margin-right:10px" %}../assets/pot.jpg
@@ -36,7 +36,7 @@ See result:
 
 {% bom %}
     {% bom_image "potentiometer", "70px", "left", "margin-right:10px" %}../assets/pot.jpg
-    {% bom_description %}10k Potentiometer
+    {% bom_description %}[10k Potentiometer](https://www.sparkfun.com/products/9939)
     {% bom_quantity %}X 5
 {% endbom %}
 
@@ -65,11 +65,11 @@ See result:
 
 # BOM table {#bom_table}
 
-> It's possible to achieve the same layout without using the `layout-tags` with a table layout:
+> It's also possible to achieve a similar result without using the `layout-tags` with a standard table layout:
 ```markdown
 |Item|Description|Quantity|
 |-|-|-|
-|![](../assets/pot-small.jpg)|10k Potentiometer|x 5|
+|![](../assets/pot-small.jpg)|[10k Potentiometer](https://www.sparkfun.com/products/9939)|x 5|
 |![](../assets/resistor-small.jpg)|100ohm Resistor|x 10|
 ```
 
@@ -77,7 +77,7 @@ See result:
 
 |Item|Description|Quantity|
 |-|-|-|
-|![](../assets/pot-small.jpg)|10k Potentiometer|x 5|
+|![](../assets/pot-small.jpg)|[10k Potentiometer](https://www.sparkfun.com/products/9939)|x 5|
 |![](../assets/resistor-small.jpg)|100ohm Resistor|x 10|
 
 
