@@ -4,7 +4,7 @@ Here is an example layout of a step by step guide to accompany the making of a p
 
 ## Step 1
 Here is the first step of the tutorial. With a picture to show more details of the task.
-![InPe Layer 01](../assets/InPe_Layer_01.png)
+![InPe Layer 01](../assets/rodrigomuller-acdc.jpg)
 
 ## Step 2
 The step 2 of the tutorial has an image on the left with wrapping text.
