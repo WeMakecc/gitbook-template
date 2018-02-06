@@ -9,7 +9,7 @@ It is possible to have a BOM list layout with the following markdown syntax:
 ```
 {% bom %}
     {% bom_image "potentiometer", "70px", "left", "margin-right:10px" %}../assets/pot.jpg
-    {% bom_description %}[10k Potentiometer](https://www.sparkfun.com/products/9939)
+    {% bom_description %}10k Potentiometer (<a href="https://www.sparkfun.com/products/9939">link</a>)
     {% bom_quantity %}X 5
 {% endbom %}
 
@@ -36,7 +36,7 @@ See result:
 
 {% bom %}
     {% bom_image "potentiometer", "70px", "left", "margin-right:10px" %}../assets/pot.jpg
-    {% bom_description %}[10k Potentiometer](https://www.sparkfun.com/products/9939)
+    {% bom_description %}10k Potentiometer (<a href="https://www.sparkfun.com/products/9939">link</a>)
     {% bom_quantity %}X 5
 {% endbom %}
 
