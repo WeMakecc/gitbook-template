@@ -80,10 +80,12 @@ smartphone.
 
 ### Rilascio e generatività
 Replicabilità dell’azione di coprogettazione: [www.playbook.opencare.cc](http://playbook.opencare.cc)
+
 Descrizione del progetto: [www.rampette.opencare.cc](http://rampette.opencare.cc)
+
 Repository del progetto: [www.github.com/opencarecc/rampette/wiki](http://www.github.com/opencarecc/rampette/wiki)
 
-### Team
-Costantino Bongiorno, Alessandro Contini, Lorenzo Romagnoli, Ivo Pionna, Valeria Loreti.
-Silvia D'Ambrosio, Chiara Ferrero, Francesco Perego, Andrea Biffi, Cristina Martellosio e
+> ### Team
+> Costantino Bongiorno, Alessandro Contini, Lorenzo Romagnoli, Ivo Pionna, Valeria Loreti.
+> Silvia D'Ambrosio, Chiara Ferrero, Francesco Perego, Andrea Biffi, Cristina Martellosio e
 Zoe Romano.
