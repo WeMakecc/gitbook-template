@@ -312,12 +312,24 @@ Would give the following result:
 
 # Tables {#tables}
 
+A syntax like the following:
+```
 |you|can|create|tables|
 |-|-|-|-|
 |no matter the amount|of columns or rows|as long as you remember that tables are fluid and not responsive, and usually have layout problems with smaller resolutions||
 |another row|it looks alternated|and can have one less column|
 |some markdown syntax is accepted in cells|**bold text**|![](../assets/rodrigomuller-acdc.jpg)|_italic text_|
 |<ol><li>of course</li><li>you can</li><li>have html</li><li>in a cell</li></ol>|
+```
+
+Would create a table like:
+|you|can|create|tables|
+|-|-|-|-|
+|no matter the amount|of columns or rows|as long as you remember that tables are fluid and not responsive, and usually have layout problems with smaller resolutions||
+|another row|it looks alternated|and can have one less column|
+|some markdown syntax is accepted in cells|**bold text**|![](../assets/rodrigomuller-acdc.jpg)|_italic text_|
+|<ol><li>of course</li><li>you can</li><li>have html</li><li>in a cell</li></ol>|
+
 
 ---
 
