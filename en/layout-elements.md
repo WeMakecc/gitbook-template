@@ -2,7 +2,22 @@
 
 In this page you can find all the layout elements that can be used in the playbook, they have examples you can copy/paste in your text
 
-* []()
+* [Headings](#headings)
+* [Paragraphs](#paragraphs)
+* [Lists](#lists)
+* [Tasks list](#tasks)
+* [Links](#links)
+* [Footnotes](#footnotes)
+* [Code](#code)
+* [Blockquote](#blockquote)
+* [Special blockquotes](#specialblockquote)
+* [Tables](#tables)
+* [Double column layout](#double_column)
+* [Images](#images)
+* [Video](#video)
+* [PDF embed](#pdf)
+* [Book Cover](#cover)
+* [Glossary](#glossary)
 
 ---
 
@@ -72,7 +87,7 @@ _**Bold and italic text**_
 
 # Links {#links}
 
-You can link to a [heading within the same article](#title) or to [an heading in another article](/chapter-1/content.md#content)
+You can link to a [heading within the same article](#layout_elements) or to [an heading in another article](/chapter-1/content.md#content)
 
 You can link to an [article](/chapter-1/content.md)
 (but if you are linking to a `readme` file you need to use a special syntax `[article](/chapter-1/README.md/#readme)`)
@@ -173,7 +188,7 @@ Special blockquotes are available to highlight pieces of text throughout the boo
 
 ---
 
-# Tables
+# Tables {#tables}
 
 |you|can|create|tables|
 |-|-|-|-|
@@ -184,7 +199,7 @@ Special blockquotes are available to highlight pieces of text throughout the boo
 
 ---
 
-# Double column layout
+# Double column layout {#double_column}
 > This feature requires the [`layout-tags`](https://github.com/WeMakecc/gitbook-plugin-layout-tags) plugin
 
 It is possible to have text on two columns with the following syntax:
@@ -424,7 +439,7 @@ Correct syntax:
 
 ---
 
-# Glossary
+# Glossary {#glossary}
 
 It is possible to have a glossary of some terms recurring in the book.
 
