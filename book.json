@@ -12,8 +12,7 @@
         "noembed",
         "embed-pdf",
         "autocover",
-        "layout-tags",
-        "versions"
+        "layout-tags"
     ],
     "pluginsConfig": {
         "anchorjs": {
@@ -42,9 +41,6 @@
             "background": {
                 "color": "#09F"
             }
-        },
-        "versions": {
-            "type": "languages"
         }
     }
 }
