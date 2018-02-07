@@ -114,29 +114,27 @@ body {}
 /******************/
 /**** HEADINGS ****/
 /******************/
-.section h1 {
-  color: #FF007D;
-}
-.markdown-section h1, h2, h3, h4, h5 {
+
+h1, h2, h3, h4, h5 {
   color: rgb(255, 0, 125);
 }
-.markdown-section h1 {
+h1 {
   font-size: 6em;
   line-height: 2.6em;
 }
-.markdown-section h2 {
+h2 {
   font-size: 2em;
 }
-.markdown-section h3 {
+h3 {
   font-size: 1.5em;
 }
-.markdown-section h4 {
+h4 {
   font-size: 1.25em;
 }
-.markdown-section h5 {
+h5 {
   font-size: 1em;
 }
-.markdown-section h6 {
+h6 {
   font-size: 1em;
   color: #777;
 }
