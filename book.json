@@ -5,7 +5,7 @@
         "website": "en/styles/website.css",
         "ebook": "en/styles/ebook.css",
         "pdf": "en/styles/pdf.css"
-    }
+    },
     "plugins": [
         "anchorjs",
         "styled-blockquotes",
