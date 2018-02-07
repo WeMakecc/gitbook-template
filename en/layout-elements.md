@@ -21,7 +21,27 @@ In this page you can find all the layout elements that can be used in the playbo
 
 ---
 
-# Heading H1 {#headings}
+# Headings {#headings}
+
+The following syntax will output various weights of headings, from `<h1>` to `<h6>`
+
+```
+# Heading H1
+
+## Heading H2
+
+### Heading H3
+
+#### Heading H4
+
+##### Heading H5
+
+###### Heading H6
+```
+
+See the resulting output below:
+
+# Heading H1
 
 ## Heading H2
 
@@ -35,8 +55,15 @@ In this page you can find all the layout elements that can be used in the playbo
 
 > Headings make use of the [`anchorjs`](https://plugins.gitbook.com/plugin/anchorjs) plugin
 
----
+### Heading with ID
 
+It's also possible to have headings with `id`, so you can link directly to them.
+The following syntax
+``` 
+# This is an H1 Heading with a "\#title" id {#title}
+```
+
+Will give the following result:
 # This is an H1 Heading with a "\#title" id {#title}
 
 ---
@@ -45,12 +72,24 @@ In this page you can find all the layout elements that can be used in the playbo
 
 Regular paragraph text
 
+```
+**Bold text**
+```
 **Bold text**
 
+```
+_Italic text_
+```
 _Italic text_
 
+```
+_**Bold and italic text**_
+```
 _**Bold and italic text**_
 
+```
+~~Strikethrough text~~
+```
 ~~Strikethrough text~~
 
 ---
