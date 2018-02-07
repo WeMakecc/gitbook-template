@@ -202,6 +202,9 @@ body {
 .ace {
     border: 1px solid #caf9fd;
     border-radius: .2em;
+    max-height: 500px!important;
+    overflow: hidden!important;
+    overflow-y: scroll!important;
 }
 .ace-chrome .ace_gutter {
     color: #334!important;
@@ -262,11 +265,4 @@ figcaption {
 
 p.copyright {
   display: none!important;
-}
-
-/* this is not working :( */
-.ace {
-  max-height: 500px!important;
-  overflow: hidden!important;
-  overflow-y: scroll!important;
 }
