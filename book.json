@@ -44,7 +44,17 @@
             }
         },
         "versions": {
-            "type": "branches"
+            "options": [
+                {
+                    "value": "https://wemakecc.gitbooks.io/gitbook-template/en/",
+                    "text": "English",
+                    "selected": true
+                },
+                {
+                    "value": "https://wemakecc.gitbooks.io/gitbook-template/it/",
+                    "text": "Italiano"
+                }
+            ]
         }
     }
 }
