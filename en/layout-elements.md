@@ -226,7 +226,9 @@ this is inline `code` instead
 
 the following syntax
 ```
+{% raw %}
 [include](../code/timer.ino)
+{% endraw %}
 ```
 
 would make it possible to include code from the `timer.ino` file in the `code` folder:
