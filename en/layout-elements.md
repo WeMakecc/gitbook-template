@@ -224,16 +224,9 @@ this is inline `code` instead
 ### Include code from an external file
 > This feature requires the [`include-codeblock`](https://plugins.gitbook.com/plugin/include-codeblock) and [`ace`](https://plugins.gitbook.com/plugin/ace) plugins
 
-the following syntax
-```
-{% raw %}
-[include](../code/timer.ino)
-{% endraw %}
-```
-
-would make it possible to include code from the `timer.ino` file in the `code` folder:
 [include](../code/timer.ino)
 
+**_IMPORTANT_** Please check the book source to see the correct syntax to insert code in your text.
 
 ---
 
@@ -325,6 +318,7 @@ A syntax like the following:
 ```
 
 Would create a table like:
+
 |you|can|create|tables|
 |-|-|-|-|
 |no matter the amount|of columns or rows|as long as you remember that tables are fluid and not responsive, and usually have layout problems with smaller resolutions||
