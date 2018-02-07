@@ -43,7 +43,7 @@
                 "color": "#09F"
             }
         },
-        "versions"{
+        "versions": {
             "type": "branches"
         }
     }
