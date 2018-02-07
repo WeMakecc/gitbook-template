@@ -202,15 +202,11 @@ footnote [link](/www.google.com)[^2]
 ---
 
 # Code {#code}
-> This feature makes use of the [`copy-code-button`](https://plugins.gitbook.com/plugin/copy-code-button) plugin, but it is not a necessary plugin
+> This feature makes use of the [`copy-code-button`](https://plugins.gitbook.com/plugin/copy-code-button) plugin, but it is not a necessary plugin 
 
 ```
-{% raw %}
-  ```
-  this is a
-  code block
-  ```
-{% endraw %}
+this is a
+code block
 ```
 
 ```css
@@ -223,16 +219,35 @@ footnote [link](/www.google.com)[^2]
 
 this is inline `code` instead
 
+**_IMPORTANT_** Please check the book source to see the correct syntax to insert code in your text.
+
 ### Include code from an external file
 > This feature requires the [`include-codeblock`](https://plugins.gitbook.com/plugin/include-codeblock) and [`ace`](https://plugins.gitbook.com/plugin/ace) plugins
 
-this is code included from the `timer.ino` file in the `code` folder:
+the following syntax
+```
 [include](../code/timer.ino)
+```
+
+would make it possible to include code from the `timer.ino` file in the `code` folder:
+[include](../code/timer.ino)
+
 
 ---
 
 # Blockquote {#blockquote}
 
+A blockquote can be used to highlight a block of text with special importance.
+
+The following syntax:
+```
+> this is a very famous quote, you should read it 'cause it will make you smarter.
+>
+> and it can continue on a second paragraph.  
+> and you can also have a single line break without starting a new paragraph
+```
+
+Would give the following result:
 > this is a very famous quote, you should read it 'cause it will make you smarter.
 >
 > and it can continue on a second paragraph.  
@@ -245,10 +260,20 @@ this is code included from the `timer.ino` file in the `code` folder:
 
 Special blockquotes are available to highlight pieces of text throughout the book.
 
+The following syntax
+```
+> **info**
+> This is an info blockquote with icon (the icon will not render in the PDF...)
+```
+
+Would give the following result:
+
 > **info**
 > This is an info blockquote with icon (the icon will not render in the PDF...)
 
-(you need characters in between two sequential blockquotes)
+**_IMPORTANT_**
+* Please check the playbook source for all the tags to show different icons and blockquote style
+* Also, please be aware that the icons won't be shown in the PDF version of the book
 
 > **info no-icon**
 > This is an info blockquote without icon
