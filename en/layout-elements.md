@@ -489,7 +489,14 @@ From Vimeo as well with the same syntax above:
 It is also possible to embed PDF files in the gitbook.
 [Please note that, unfortunately, the generated links are broken in the PDF downloaded from gitbook.com]
 
+A syntax like the following:
+```
 {% pdf src="../assets/opencare-graphic-guide.pdf", width="100%", height="700" %}{% endpdf %}
+```
+
+Would create the following result
+{% pdf src="../assets/opencare-graphic-guide.pdf", width="100%", height="700" %}{% endpdf %}
+
 
 ---
 
@@ -578,6 +585,7 @@ Correct syntax:
 It is possible to have a glossary of some terms recurring in the book.
 
 The terms need to be added in the [GLOSSARY.md](/GLOSSARY.md) page in the form of `h2` headings with some added text:
+
 ```
 ## Term
 Definition for this term
