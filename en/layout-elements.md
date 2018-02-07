@@ -206,10 +206,10 @@ footnote [link](/www.google.com)[^2]
 
 ```
 {% raw %}
-```
-this is a
-code block
-```
+  ```
+  this is a
+  code block
+  ```
 {% endraw %}
 ```
 
