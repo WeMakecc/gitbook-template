@@ -96,6 +96,28 @@ _**Bold and italic text**_
 
 # Lists {#lists}
 
+Of course it's possible to have lists in your text. Please check the following syntax:
+```
+1. First ordered list item
+2. Another item
+   * Unordered sub-list.
+3. Actual numbers don't matter, just that it's a number
+   1. Ordered sub-list
+4. And another item.
+
+   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces \(at least one, but we'll use three here to also align the raw Markdown\).
+
+   To have a line break without a paragraph, you will need to use two trailing spaces.  
+   Note that this line is separate, but within the same paragraph.  
+   \(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.\)
+
+5. And another item after a lot of text
+
+
+6. You can start a new list after two line breaks
+```
+
+The above will generate the following output:
 1. First ordered list item
 2. Another item
    * Unordered sub-list.
@@ -119,6 +141,13 @@ _**Bold and italic text**_
 # Tasks list {#tasks}
 > This feature requires the [`to-do`](https://plugins.gitbook.com/plugin/checkbox) plugin
 
+A syntax like the following
+```
+- [ ] task 1
+- [x] task 2
+```
+
+Will generate the following output
 - [ ] task 1
 - [x] task 2
 
@@ -126,16 +155,40 @@ _**Bold and italic text**_
 
 # Links {#links}
 
+You can link to a [heading within the same article](#layout_elements) or to [an heading in another article](/chapter-1/content.md#content) with the following syntax:
+```
 You can link to a [heading within the same article](#layout_elements) or to [an heading in another article](/chapter-1/content.md#content)
+```
 
 You can link to an [article](/chapter-1/content.md)
+(but if you are linking to a `readme` file you need to use a special syntax `[article](/chapter-1/README.md/#readme)`) with the following syntax:
+```
+You can link to an [article](/chapter-1/content.md)
 (but if you are linking to a `readme` file you need to use a special syntax `[article](/chapter-1/README.md/#readme)`)
+```
 
+You can of course always link to [whatever web address](http://www.google.com) with the following syntax:
+```
 You can of course always link to [whatever web address](http://www.google.com)
+```
 
 ---
 
 # Footnotes {#footnotes}
+
+You can have footnotes wherever you want in your text and page.
+Please check the following syntax:
+```
+footnote[^1]
+
+footnote [link](/www.google.com)[^2]
+
+[^1]: this is a plain footnote
+
+[^2]: link: [http://www.google.com](http://www.google.com)
+```
+
+That will generate the following output:
 
 footnote[^1]
 
@@ -145,14 +198,17 @@ footnote [link](/www.google.com)[^2]
 
 [^2]: link: [http://www.google.com](http://www.google.com)
 
+
 ---
 
 # Code {#code}
 > This feature makes use of the [`copy-code-button`](https://plugins.gitbook.com/plugin/copy-code-button) plugin, but it is not a necessary plugin
 
 ```
+```
 this is a
 code block
+```
 ```
 
 ```css
