@@ -205,10 +205,12 @@ footnote [link](/www.google.com)[^2]
 > This feature makes use of the [`copy-code-button`](https://plugins.gitbook.com/plugin/copy-code-button) plugin, but it is not a necessary plugin
 
 ```
+{% raw %}
 ```
 this is a
 code block
 ```
+{% endraw %}
 ```
 
 ```css
