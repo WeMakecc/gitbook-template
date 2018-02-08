@@ -5,6 +5,7 @@
 * [BOM](BOM.md)
 * [Step by step guide](step-by-step.md)
 * [One pager](one-pager.md)
+* [How to start a new book](how-to-start-a-new-book.md)
 
 ## CHAPTER 1
 
@@ -14,4 +15,3 @@
 ## CHAPTER 2
 
 * [chapter 2](/chapter-2/README.md)
-
