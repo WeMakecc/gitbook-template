@@ -2,7 +2,7 @@ file readme in italiano
 
 # Summary
 
-* [Introduction](/en/README.md)
+* [Introduction](../en/README.md)
 * [Layout elements](layout-elements.md)
 * [BOM](BOM.md)
 * [Step by step guide](step-by-step.md)
